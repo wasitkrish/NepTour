@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet"/>
+     <link rel = "icon" href =  "AI/logo.png" type = "image/x-icon"> 
+    <title>NepTour</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__logo">NepTour<span>.</span></div>
+      <ul class="nav__links">
+        <li class="link"><a href="index.html">Home</a></li>
+        <li class="link"><a href="#section1">Destinations</a></li>
+        <li class="link"><a href="#section2">Guides</a></li>
+        <li class="link"><a href="#section3">Packages</a></li>
+      </ul>
+      <a href="contact.html"><button class="btn">Contact Us</button></a>
+    </nav>
+
+    <header>
+      <div class="section__container header__container">
+        <div class="header__image">
+          <img src="assets/temp.png" alt="header" />
+          <img src="assets/swayambhu.jpg" alt="header" />
+        </div>
+        <div class="header__content">
+          <div>
+            <p class="sub__header">Start Exploring</p>
+            <h1>Nepal<br />The Land of Truth</h1>
+            <p class="section__subtitle">
+              Make your travel in Nepal memorable with us. We are here to ensure best travel experience for you by providing every detail necessary.
+            </p>
+            <div class="action__btns">
+              <a href="https://ntb.gov.np/"><button class="btn">NTB</button></a>
+
+              <div  id="popup-button"  class="story">
+                <div class="video__image">
+                  <img src="assets/namaste.png" alt="story" />
+                  <span><i class="ri-play-fill"></i></span>
+                </div>
+                <span>Watch our stories</span>
+              </div>
+
+
+
+
+ <div id="popup-container" class="popup-container">
+        <span class="close-button" onclick="closePopup()">X</span>
+        <div class="video-container">
+            <iframe id="youtube-iframe" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="section__container destination__container" id="section1">
+      <div class="section__header">
+        <div>
+        <h2 class="section__title">Explore top destinations</h2>
+          <p class="section__subtitle">
+            Explore your suitable and dream places around the world. Here you
+            can find your right destination.
+          </p>
+        </div>
+        
+      </div>
+      <a href="kathmandu.html">
+      <div class="destination__grid">
+        <div class="destination__card">
+          <img src="assets/kathmandu.png" alt="destination" />
+          <div class="destination__details">
+            <p class="destination__title">Kathmandu</p>
+            <p class="destination__subtitle">Nepal</p>
+          </div>
+        </div>
+      </a>
+      <a href="pokhara.html">
+        <div class="destination__card">
+          <img src="assets/pokhara.png" alt="destination" />
+          <div class="destination__details">
+            <p class="destination__title">Pokhara</p>
+            <p class="destination__subtitle">Nepal</p>
+          </div>
+        </div>
+        </a>
+        <a href="Bhaktapur.html">
+        <div class="destination__card">
+          <img src="assets/bhaktapur.jpg" alt="destination" />
+          <div class="destination__details">
+            <p class="destination__title">Bhaktapur</p>
+            <p class="destination__subtitle">Nepal</p>
+          </div>
+        </div>
+        </a>
+        <a href="patan.html">
+        <div class="destination__card">
+          <img src="assets/patan.jpg" alt="destination" />
+          <div class="destination__details">
+            <p class="destination__title">Lalitpur</p>
+            <p class="destination__subtitle">Nepal</p>
+          </div>
+        </div>
+      </div>
+      </a>
+      <br>
+      <a href="Janakpur.html">
+            <div class="destination__grid">
+        <div class="destination__card">
+          <img src="assets/janakpur.jpg" alt="destination" />
+          <div class="destination__details">
+            <p class="destination__title">janakpur</p>
+            <p class="destination__subtitle">Nepal</p>
+          </div>
+        </div>
+        </a>
+        <a href="Nagarkot.html">
+        <div class="destination__card">
+          <img src="assets/nagarkot.jpg" alt="destination" />
+          <div class="destination__details">
+            <p class="destination__title">Nagarkot</p>
+            <p class="destination__subtitle">Nepal</p>
+          </div>
+        </div>
+      </a>
+      <a href="annapurna.html">
+        <div class="destination__card">
+          <img src="assets/annapurna.jpg" alt="destination" />
+          <div class="destination__details">
+            <p class="destination__title">Annapurna circuit</p>
+            <p class="destination__subtitle">Nepal</p>
+          </div>
+        </div>
+        </a>
+        <a href="Ilam.html">
+        <div class="destination__card">
+          <img src="assets/ilam.jpg" alt="destination" />
+          <div class="destination__details">
+            <p class="destination__title">Ilam</p>
+            <p class="destination__subtitle">Nepal</p>
+          </div>
+        </div>
+      </div>
+      </a>
+      <br>
+      <a href="lumbini.html">
+      <div class="destination__grid">
+        <div class="destination__card">
+          <img src="assets/lumbini.jpg" alt="destination" />
+          <div class="destination__details">
+            <p class="destination__title">Lumbini</p>
+            <p class="destination__subtitle">Nepal</p>
+          </div>
+        </div>
+        </a>
+        <a href="Chitwan.html">
+        <div class="destination__card">
+          <img src="assets/chitwan.jpg" alt="destination" />
+          <div class="destination__details">
+            <p class="destination__title">Chitwan</p>
+            <p class="destination__subtitle">Nepal</p>
+          </div>
+        </div>
+        </a>
+        <a href="Mustang.html">
+        <div class="destination__card">
+          <img src="assets/mustang.jpg" alt="destination" />
+          <div class="destination__details">
+            <p class="destination__title">Mustang</p>
+            <p class="destination__subtitle">Nepal</p>
+          </div>
+        </div>
+        </a>
+        <a href="khumbu.html">
+        <div class="destination__card">
+          <img src="assets/solukhumbu.png" alt="destination" />
+          <div class="destination__details">
+            <p class="destination__title">Solukhumbu</p>
+            <p class="destination__subtitle">Nepal</p>
+          </div>
+        </div>
+        </a>
+      </div>
+    </section>
+    <section class="trip" id="section2">
+      <div class="section__container trip__container">
+        <h2 class="section__title">Guides</h2>
+        <p class="section__subtitle">
+          Best Tour guides around major destinations of Nepal That will help make your Visit both memorable and interesting
+        </p>
+        <div class="trip__grid">
+              <div class="profile-card">
+      <div class="image">
+        <img src="assets/guide1.jpg" alt="" class="profile-img" />
+      </div>
+
+      <div class="text-data">
+        <span class="name">Shreyas Manandhar</span>
+        <span class="job">Kathmandu</span>
+      </div>
+
+      <div class="media-buttons">
+        <a href="https://www.facebook.com/profile.php?id=61555611842513" style="background: #4267b2" class="link">
+          <i class="bx bxl-facebook"></i>
+        </a>
+                <a href="https://www.instagram.com/stepbroinitiative/" style="background: #e1306c" class="link">
+          <i class="bx bxl-instagram"></i>
+        </a>
+        <a href="#" style="background: #1da1f2" class="link">
+          <i class="bx bxs-phone-call"></i>
+        </a>
+        <a href="#" style="background: #ff0000" class="link">
+          <i class="bx bxl-gmail"></i>
+        </a>
+      </div>
+
+      <div class="buttons">
+        <a href="mailto:contact@krishsingh.com.np"><button class="button">Mail</button></a>
+        <a href="payment.html"><button class="button">Hire</button></a>
+      </div>
+
+      <div class="analytics">
+        <div class="data">
+          <span class="number"></span>
+        </div>
+        <div class="data">
+          <span class="number"></span>
+        </div>
+        <div class="data">
+    
+          <span class="number"></span>
+        </div>
+      </div>
+    </div>
+
+
+        <div class="profile-card">
+      <div class="image">
+        <img src="assets/guide3.avif" alt="" class="profile-img" />
+      </div>
+
+      <div class="text-data">
+        <span class="name">Ramesh Thakuri</span>
+        <span class="job">Patan</span>
+      </div>
+
+      <div class="media-buttons">
+         <a href="https://www.facebook.com/profile.php?id=61555611842513" style="background: #4267b2" class="link">
+          <i class="bx bxl-facebook"></i>
+        </a>
+                <a href="https://www.instagram.com/stepbroinitiative/" style="background: #e1306c" class="link">
+          <i class="bx bxl-instagram"></i>
+        </a>
+        <a href="#" style="background: #1da1f2" class="link">
+          <i class="bx bxs-phone-call"></i>
+        </a>
+        <a href="#" style="background: #ff0000" class="link">
+          <i class="bx bxl-gmail"></i>
+        </a>
+      </div>
+
+      <div class="buttons">
+        <a href="mailto:contact@krishsingh.com.np"><button class="button">Mail</button></a>
+        <a href="payment.html"><button class="button">Hire</button></a>
+      </div>
+
+      <div class="analytics">
+        <div class="data">
+
+          <span class="number"></span>
+        </div>
+        <div class="data">
+          <span class="number"></span>
+        </div>
+        <div class="data">
+          <span class="number"></span>
+        </div>
+      </div>
+    </div>
+
+
+        <div class="profile-card">
+      <div class="image">
+        <img src="assets/guide2.jpeg" alt="" class="profile-img" />
+      </div>
+
+      <div class="text-data"><span class="name">Hari paudel</span>
+        <span class="job">Pokhara</span>
+      </div>
+
+      <div class="media-buttons">
+        <a href="https://www.facebook.com/profile.php?id=61555611842513" style="background: #4267b2" class="link">
+          <i class="bx bxl-facebook"></i>
+        </a>
+                <a href="https://www.instagram.com/stepbroinitiative/" style="background: #e1306c" class="link">
+          <i class="bx bxl-instagram"></i>
+        </a>
+        <a href="#" style="background: #1da1f2" class="link">
+          <i class="bx bxs-phone-call"></i>
+        </a>
+        <a href="#" style="background: #ff0000" class="link">
+          <i class="bx bxl-gmail"></i>
+        </a>
+      </div>
+
+      <div class="buttons">
+        <a href="mailto:contact@krishsingh.com.np"><button class="button">Mail</button></a>
+        <a href="payment.html"><button class="button">Hire</button></a>
+      </div>
+
+      <div class="analytics">
+        <div class="data">
+          <span class="number"></span>
+        </div>
+        <div class="data">
+          <span class="number"></span>
+        </div>
+        <div class="data">
+          <span class="number"></span>
+        </div>
+      </div>
+    </div>
+        </div>
+        <div class="view__all">
+         <a href="#section1"><button class="btn" onclick="alert('Select A Destination First!')">View More</button></a>
+        </div>
+      </div>
+    </section>
+      <section class="trip" id="section3">
+      <div class="section__container trip__container">
+        <h2 class="section__title">Tour Packages </h2>
+        <p class="section__subtitle">
+          Various Tour Packages pre-planned according to the users needs and choices
+        </p>
+        <div class="trip__grid">
+          <div class="trip__card">
+            <img src="assets/bh.png" alt="trip" />
+            <div class="trip__details">
+              <p>Blue Himalaya Tours And Travels</p>
+              <div class="rating"><i class="ri-star-fill"></i> 4.2</div>
+              <div class="booking__price">
+                <div class="price"><span>Price</span> varies according to package</div>
+                 <a href="https://www.nepaltravelstrek.com"><button class="book__now">View Package</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="trip__card">
+            <img src="assets/yeti.png" alt="trip" />
+            <div class="trip__details">
+              <p>Yeti Travels PVT LTD</p>
+              <div class="rating"><i class="ri-star-fill"></i> 4.5</div>
+              <div class="booking__price">
+                 <div class="price"><span>Price</span> varies according to package</div>
+                <a href="https://www.yetitravels.com/home/"><button class="book__now">View Package</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="trip__card">
+            <img src="assets/st.png" alt="trip" />
+            <div class="trip__details">
+              <p>Social Tours Packages</p>
+              <div class="rating"><i class="ri-star-fill"></i> 4.7</div>
+              <div class="booking__price">
+                 <div class="price"><span>Price</span> varies according to package</div>
+                 <a href="https://www.socialtours.com"><button class="book__now">View Package</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+         <div class="trip__grid">
+          <div class="trip__card">
+            <img src="assets/htn.png" alt="trip" />
+            <div class="trip__details">
+              <p>Himalayan Trip Nepal</p>
+              <div class="rating"><i class="ri-star-fill"></i> 4.2</div>
+              <div class="booking__price">
+                 <div class="price"><span>Price</span> varies according to package</div>
+                <a href="https://www.nepaltour.info"><button class="book__now">View Package</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="trip__card">
+            <img src="assets/yatra.png" alt="trip" />
+            <div class="trip__details">
+              <p>Yatra.com packages</p>
+              <div class="rating"><i class="ri-star-fill"></i> 4.5</div>
+              <div class="booking__price">
+                 <div class="price"><span>Price</span> varies according to package</div>
+                <a href="https://www.yatra.com/international-tour-packages/holidays-in-nepal"><button class="book__now">View Package</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="trip__card">
+            <img src="assets/mmt.png" alt="trip" />
+            <div class="trip__details">
+              <p>Make My Trip Packages</p>
+              <div class="rating"><i class="ri-star-fill"></i> 4.7</div>
+              <div class="booking__price">
+                 <div class="price"><span>Price</span> varies according to package</div>
+                <a href="https://www.makemytrip.com/holidays-international/nepal-vacation-tour-packages.html"><button class="book__now">View Package</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+ <div class="section__container2">
+      <div class="header2">
+        <p>TESTIMONIALS</p>
+        <h1>What people say about us.</h1>
+      </div>
+      <div class="testimonials__grid">
+        <div class="card">
+          <span><i class="ri-double-quotes-l"></i></span>
+          <p>
+            I've been working with NepTour everytime i visit Nepal and i can rest assured that i have my back covered.
+          </p>
+          <hr />
+          <img src="assets/nick1.jpg" alt="user" />
+          <p class="name">Allan Collins</p>
+        </div>
+        <div class="card">
+          <span><i class="ri-double-quotes-l"></i></span>
+          <p>
+            Working with NepTour is just great, every problem in my Trip to Nepal
+            solved in a matter of minutes.
+          </p>
+          <hr />
+          <img src="assets/nick2.jpeg" alt="user" />
+          <p class="name">Clay Washington</p>
+        </div>
+        <div class="card">
+          <span><i class="ri-double-quotes-l"></i></span>
+          <p>
+            NepTour has helped me build a perfect tour plan. It has helped me cover all the aspects of my trip perfectly.
+          </p>
+          <hr />
+          <img src="assets/nick3.jpg" alt="user" />
+          <p class="name">Tanya Grant</p>
+        </div>
+      </div>
+    </div>
+     <div class="view__all">
+      <center>
+          <a href="https://forms.gle/JhA1zvkEWvLn6HNe9"><button class="btn">Drop a Review</button></a>
+          </center>
+        </div>
+<br><br><br>
+    <section class="gallary">
+      <div class="section__container gallary__container">
+        <div class="image__gallary">
+          <div class="gallary__col">
+            <img src="assets/101.jpg" alt="gallary" />
+          </div>
+          <div class="gallary__col">
+            <img src="assets/103.jpg" alt="gallary" />
+            <img src="assets/102.jpg" alt="gallary" />
+          </div>
+        </div>
+        <div class="gallary__content">
+          <div>
+            <h2 class="section__title">
+              Our trip gallary that will inspire you
+            </h2>
+            <p class="section__subtitle">
+              Explore moments captured from various places all over Nepal. Here you
+              can find your right destination.
+            </p>
+           <a href="#section1"><button class="btn" onclick="alert('Select A Destination First!')">View All</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+   
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h3>NepTour<span>.</span></h3>
+          <p>
+            Explore the Land Of Truth with us covering your backs and guiding you through the beauty of nepal.
+          </p>
+        </div>
+        <div class="footer__col">
+         <center><img src="assets/wasitkrish.jpg" style="width: 140px; height: 140px;"><br><p>@wasitkrish</p></center>
+        </div>
+        <div class="footer__col">
+          <h4>Address</h4>
+          <p>
+            <span>Address:</span> Sankhamul, Kathmandu, Nepal
+          </p>
+          <p><span>Email:</span> NepTour@krishsingh.com.np</p>
+          <p><span>Phone:</span>+977 9865365520</p>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2023 https://Krishsingh.com.np/. All rights reserved.
+      </div>
+    </footer>
+  </body>
+      <script type="text/javascript">
+        function openPopup(videoId) {
+            var popupContainer = document.getElementById('popup-container');
+            var youtubeIframe = document.getElementById('youtube-iframe');
+
+            youtubeIframe.src = "https://www.youtube.com/embed/" + videoId;
+            popupContainer.classList.add('show');
+        }
+
+        function closePopup() {
+            var popupContainer = document.getElementById('popup-container');
+            var youtubeIframe = document.getElementById('youtube-iframe');
+
+            youtubeIframe.src = "";
+            popupContainer.classList.remove('show');
+        }
+
+        var popupButton = document.getElementById('popup-button');
+        popupButton.addEventListener('click', function() {
+            openPopup("jvN5hZzhFHM?si=2WpZRp6-VWghdkSm");
+        });
+    </script>
+</html>

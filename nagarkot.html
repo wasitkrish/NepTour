@@ -1,0 +1,646 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+    <link rel="stylesheet" href="subdiv.css" />
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet"/>
+     <link rel = "icon" href =  "AI/logo.png" type = "image/x-icon"> 
+         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <title>NepTour By StepBro</title>
+    <style>
+      @keyframes changetext{
+        0%{content: "Nagarkot";}
+        10%{content: "Paragliding in Nagarkot";}
+        20%{content: "Nagarkot Nature Trail";}
+        30%{content: "Nagarkot Buddha Peace Park Hiking Trail";}
+        40%{content: "Sunrise in Nagarkot";}
+        50%{content: " Nagarkot View Point Tower";}
+        60%{content: "Paragliding in Nagarkot";}
+        70%{content: "Nagarkot Nature Trail";}
+        80%{content: "Nagarkot Buddha Peace Park Hiking Trail";}
+        90%{content: "Sunrise in Nagarkot";}
+        100%{content: "Nagarkot View Point Tower";}
+    } 
+    .home{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)), url(./assets/nagarkot.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    </style>
+  </head>
+  <body>
+       <nav>
+      <div class="nav__logo">NepTour<span>.</span></div>
+      <ul class="nav__links" id="nav-links">
+        <li class="link"><a href="index.html">Home</a></li>
+        <li class="link"><a href="#section3">Accomodation</a></li>
+        <li class="link"><a href="#section2">Guides</a></li>
+        <li class="link"><a href="#section1">Destinations</a></li>
+      </ul>
+      <a href="contact.html"><button class="btn">Contact Us</button></a>
+          <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav><br><br><br>
+  <div class="home">
+        <div class="content">
+            <h5>WELCOME TO Nagarkot</h5>
+            <h1><span class="changecontent"></span></h1>
+            <p>The City of Himalayan View And Pleasant Sunrises</p>
+             <a href="#section1"><button class="book__now">Explore</button></a>
+        </div>
+    </div>
+    <br><br><br>
+<section class="trip" id="section1">
+   <div class="section__container trip__container">
+  <h2 class="section__title">Destinatons</h2>
+        <center><p class="section__subtitle">
+          List of must do Things in the best tourist spots within Nagarkot
+        </p></center></div>
+   <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/prgngk.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Paragliding in Nagarkot</h3>
+            <p align="justify">Amidst the snow-tipped Himalayas and valleys out of the crowded city area, paragliding in Nagarkot offers a quintessential adrenaline rush and views of Everest. The takeoff site is Lapsiphedi at an elevation of 1,905 metres, from where one can paraglide past the Annapurna, Manaslu, Ganesh Himal, Langtang and Jugal ranges with their professional guide pilot. Tandem paragliding lasting 30 minutes costs around NPR 10,224.
+            </p>
+
+            <button onclick="toggle()" id="about-btn" class="btn1">Locate</button>
+
+        </div>
+            </section>
+<center>
+<div id="cont" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56511.463608608516!2d85.4459175731447!3d27.718321344268258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb069982d28f3d%3A0xa82956475d7dc5dd!2sNagarkot%20Panoramic%20Hiking%20Trail!5e0!3m2!1sen!2snp!4v1706545638236!5m2!1sen!2snp" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle() {
+    var div= document.getElementById('cont')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/naturetrail.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Nagarkot Nature Trail</h3>
+            <p align="justify">The first half of the larger Nagarkot Panoramic Hiking Trail, Nagarkot Nature Trail, is a six-kilometre-long leisure walk circuit in the Himalayas. This initial trail is a 1-hour walk, running through a coniferous forest with tall pines overlooking rolling valleys, villages and terraced rice farms, and is less steep than the remainder. It starts from Danda Gaon and ends at Kartike Village.
+            </p>
+              <button onclick="toggle2()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont2" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28258.92010149481!2d85.44734787431642!3d27.70601419999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb05ac3b56eed5%3A0x5c94730c7248be7a!2sNagarkot%20Waterfall!5e0!3m2!1sen!2snp!4v1706545956686!5m2!1sen!2snp" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle2() {
+    var div= document.getElementById('cont2')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+        <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/sslopi.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Nagarkot Buddha Peace Park Hiking Trail</h3>
+            <p align="justify">Commanding some of Nepalâ€™s most awe-inspiring views of the Himalayas, Nagarkot Buddha Peace Park Hiking Trail is a leisure hike from Nagarkot town to Buddha Peace Park. The trail is eight kilometres long, leading through pine jungles, quaint villages, viewpoints and terraced plantations in the mountains. At the end is a massive golden Buddha depicting â€œBhumisparsha Mudraâ€ amidst manicured gardens.
+            </p>
+           <button onclick="toggle3()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont3" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.243416343568!2d85.49984037492312!3d27.709769725385552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb05cb18e1bd23%3A0xfab47d9aa45fe2c6!2sBuddha%20Peace%20Park!5e0!3m2!1sen!2snp!4v1706546140226!5m2!1sen!2snp" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle3() {
+    var div= document.getElementById('cont3')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/srisenagarkot.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Sunrise in Nagarkot</h3>
+            <p align="justify">At an elevation of 2,195 metres, Nagarkot commands magnificent panoramas of the Himalayas, Everest and Kathmandu Valley, particularly at sunrise. With eight ranges visible from town, namely Annapurna, Manaslu, Ganesh Himal, Langtang, Rolwaling, Numbur, Mahalangur and Jugal, there are fantastic sunrise viewpoint hikes in Nagarkot. The most famous spots include Nagarkot Nature Trail, and Nagarkot Geodic Survey Tower, best visited between 5 AM - 5:45 AM.</p>
+            <button onclick="toggle4()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont4" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14128.970642221526!2d85.49211554643412!3d27.709793066576847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb071f8be7cdc1%3A0x3a2f63878f4d584a!2sNagarkot%20Panoramic%20Sunrise%20view%20point!5e0!3m2!1sen!2snp!4v1706546298136!5m2!1sen!2snp" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle4() {
+    var div= document.getElementById('cont4')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/ngtor.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Nagarkot View Point Tower</h3>
+            <p align="justify">Nagarkot View Point Tower or Geodic Tower offers a 360-degree vista of eight Himalayan mountain ranges and is considered the townâ€™s best sunrise viewpoint. This observation deck sits at the end of an hour-long east trek and has a steel staircase one can climb for views of Everest, terraced farms, villages, pine forests and national parks. Binoculars are recommended.
+            </p>
+            <button onclick="toggle5()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont5" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: c  enter;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.81304066804!2d85.51735747492249!3d27.692172726161594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb05df7d3eff5b%3A0xdf125feb925fb7d4!2sNagarkot%20Geodic%20Survey%20Tower!5e0!3m2!1sen!2snp!4v1706568200567!5m2!1sen!2snp" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle5() {
+    var div= document.getElementById('cont5')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+     
+</section>
+
+     <section class="trip" id="section2">
+ <div class="section__container trip__container">
+  <h2 class="section__title">Guides</h2>
+        <center><p class="section__subtitle">
+          List of Fully experienced Guides to help you explore Nagarkot
+        </p></center>
+    <section class="lmnop" id="lmnop">
+      <div class="swiper mySwiper container">
+        <div class="swiper-wrapper content">
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide1.jpg" alt="" />
+              </div>
+
+              <div class="media-icons">
+             <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Shreyas Manandhar</span>
+             <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+               <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide2.jpeg" alt="" />
+              </div>
+
+              <div class="media-icons">
+       <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Ramesh Thakuri</span>
+          <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+                <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide3.avif" alt="" />
+              </div>
+
+              <div class="media-icons">
+                  <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Hari Paudel</span>
+                <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+                 <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide4.jpg" alt="" />
+              </div>
+
+              <div class="media-icons">
+       <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Ramesh Thakuri</span>
+          <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+                <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide5.jpeg" alt="" />
+              </div>
+
+              <div class="media-icons">
+                   <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Janak Mahato</span>
+                <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+                <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide6.jpg" alt="" />
+              </div>
+
+              <div class="media-icons">
+             <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Indra Sahi</span>
+                  <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+            <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide7.jpg" alt="" />
+              </div>
+
+              <div class="media-icons">
+               <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Anjit Khadka</span>
+                <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+ <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide8.jpg" alt="" />
+              </div>
+
+              <div class="media-icons">
+       <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Abiral Shrestha</span>
+      <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+             <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide9.jpeg" alt="" />
+              </div>
+
+              <div class="media-icons">
+                <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Subham Subedi</span>
+                <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+                <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+      </div>
+    </section>
+  </div>
+ </section>
+  <section class="trip"  id="section3">
+ <div class="section__container trip__container">
+  <h2 class="section__title">Accomodations</h2>
+        <center><p class="section__subtitle">
+          List of the best exclusive Hotels for Accomodation in Nagarkot
+        </p></center>
+         <div class="trip__grid">
+          <div class="trip__card">
+            <img src="assets/soaltee2kkl.jpg" alt="trip" />
+            <div class="trip__details">
+              <p><b>Soaltee Westend Resort Nagarkot</b><br>Mahamanjushree Nagarkot 44600</p>
+              <div class="rating"><i class="ri-star-fill"></i> 4.2</div>
+              <div class="booking__price">
+                <div class="price"><span>Price</span> varies</div>
+                 <a href="http://tayoecoresort.com.np/"><button class="book__now">Show</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="trip__card">
+            <img src="assets/ngslside.jpg" alt="trip" />
+            <div class="trip__details">
+              <p><b>Nagarkot hillside village resort</b><br>Nagarkot 44600</p>
+              <div class="rating"><i class="ri-star-fill"></i> 4.5</div>
+              <div class="booking__price">
+                 <div class="price"><span>Price</span> varies </div>
+                <a href="https://www.facebook.com/nagarkothillsideresort/"><button class="book__now">Show</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="trip__card">
+            <img src="assets/musticmnt.jpg" alt="trip" />
+            <div class="trip__details">
+              <p><b>Hotel Mystic Mountain</b><br>Baluwapati Deupur 44812</p>
+              <div class="rating"><i class="ri-star-fill"></i> 4.7</div>
+              <div class="booking__price">
+                 <div class="price"><span>Price</span> varies </div>
+                 <a href="http://www.hotelmysticmountain.com/"><button class="book__now">Show</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+         <div class="trip__grid">
+          <div class="trip__card">
+            <img src="assets/contvilla.jpg" alt="trip" />
+            <div class="trip__details">
+              <p><b>Hotel Country Villa</b><br>Naldum Road, 44812</p>
+              <div class="rating"><i class="ri-star-fill"></i> 4.2</div>
+              <div class="booking__price">
+                <div class="price"><span>Price</span> varies</div>
+                 <a href="http://www.hotelcountryvilla.com/"><button class="book__now">Show</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="trip__card">
+            <img src="assets/clubhhtl.jpg" alt="trip" />
+            <div class="trip__details">
+              <p><b>Club Himalaya by ACE Hotels</b> <br>Nagarkot Road, 44812</p>
+              <div class="rating"><i class="ri-star-fill"></i> 4.5</div>
+              <div class="booking__price">
+                 <div class="price"><span>Price</span> varies</div>
+                <a href="http://www.clubhimalaya.com.np/"><button class="book__now">Show</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="trip__card">
+            <img src="assets/htlmteveresort.jpg" alt="trip" />
+            <div class="trip__details">
+              <p><b>Hotel mount everest and resort</b> <br>Mahamanjushree Nagarkot 44812</p>
+              <div class="rating"><i class="ri-star-fill"></i> 4.7</div>
+              <div class="booking__price">
+                 <div class="price"><span>Price</span> varies </div>
+                 <a href="http://r.srvtrck.com/v1/redirect?url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fnp%2Fmount-everest-nagarkot.html&type=url&api_key=7c6d8e540bd2f1c7c8dc5b594b726687&site_id=a29d8cfb21014db0aeae7c7e6c348d6f&tid=a7e2b4d3-5fd7-4734-a7d1-4e6e97649d61&dch=bh&tna=bh&tv=&title=hotel%20mount%20everest%20and%20resort%20-%20Google%20Search&refr=&page=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Dhotel%2Bmount%2Beverest%2Band%2Bresort%26oq%3DHotel%2Bmount%2Beverest%2Band%2Bresort%26gs_lcrp%3DEgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyCAgBEAAYFhgeMg0IAhAAGIYDGIAEGIoFMg0IAxAAGIYDGIAEGIoFMgYIBBBFGD0yBggFEEUYPdIBBzYzOWowajmoAgCwAgA%26sourceid%3Dchrome%26ie%3DUTF-8&afsrc=1&cache=F75KUMJ91QINBMQGKDQU8V09NSVS8NTG&vid=6&ad_zi=SE&ad_dt=link"><button class="book__now">Show</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+ </section>
+
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <section class="gallary">
+      <div class="section__container gallary__container">
+        <div class="image__gallary">
+          <div class="gallary__col">
+            <img src="assets/101.jpg" alt="gallary" />
+          </div>
+          <div class="gallary__col">
+            <img src="assets/103.jpg" alt="gallary" />
+            <img src="assets/102.jpg" alt="gallary" />
+          </div>
+        </div>
+        <div class="gallary__content">
+          <div>
+            <h2 class="section__title">
+              Our trip gallary that will inspire you
+            </h2>
+            <p class="section__subtitle">
+              Explore moments captured from various places all over Nepal. Here you
+              can find your right destination.
+            </p>
+           <a href="gallary.html"><button class="btn">View All</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br><br>
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h3>NepTour<span>.</span></h3>
+          <p>
+            Explore the Land Of Truth with us covering your backs and guiding you through the beauty of nepal.
+          </p>
+        </div>
+        <div class="footer__col">
+         <center><img src="assets/wasitkrish.jpg" style="width: 140px; height: 140px;"><br><p>@wasitkrish</p></center>
+        </div>
+        <div class="footer__col">
+          <h4>Address</h4>
+          <p>
+            <span>Address:</span> Sankhamul, Kathmandu, Nepal
+          </p>
+          <p><span>Email:</span> NepTour@krishsingh.com.np</p>
+          <p><span>Phone:</span>+977 9865365520</p>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2023 https://Krishsingh.com.np/. All rights reserved.
+      </div>
+    </footer>
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+        if (hamburger && navLinks) {
+            hamburger.addEventListener('click', function() {
+                navLinks.classList.toggle('active');
+                hamburger.classList.toggle('active');
+            });
+            const links = document.querySelectorAll('.nav__links .link a');
+            links.forEach(link => {
+                link.addEventListener('click', function() {
+                    navLinks.classList.remove('active');
+                    hamburger.classList.remove('active');
+                });
+            });
+        }
+    </script>
+</body>
+
+ </html>

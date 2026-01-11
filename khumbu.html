@@ -1,0 +1,646 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+    <link rel="stylesheet" href="subdiv.css" />
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet"/>
+     <link rel = "icon" href =  "AI/logo.png" type = "image/x-icon"> 
+         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <title>NepTour By StepBro</title>
+    <style>
+      @keyframes changetext{
+        0%{content: "Ilam";}
+        10%{content: "Janaki Mandir";}
+        20%{content: "Dhanush Sagar";}
+        30%{content: "Ganga Sagar";}
+        40%{content: "Parshuram Kunda";}
+        50%{content: " Ram Sita Bibaha Mandir";}
+        60%{content: "Ram Mandir";}
+        70%{content: "Dhanushadham";}
+        80%{content: "Janaki Mandir";}
+        90%{content: "Dhanush Sagar";}
+        100%{content: "Ganga Sagar";}
+    } 
+    .home{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)), url(./assets/ilam.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    </style>
+  </head>
+  <body>
+       <nav>
+      <div class="nav__logo">NepTour<span>.</span></div>
+      <ul class="nav__links" id="nav-links">
+        <li class="link"><a href="index.html">Home</a></li>
+        <li class="link"><a href="#section3">Accomodation</a></li>
+        <li class="link"><a href="#section2">Guides</a></li>
+        <li class="link"><a href="#section1">Destinations</a></li>
+      </ul>
+      <a href="contact.html"><button class="btn">Contact Us</button></a>
+          <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav><br><br><br>
+  <div class="home">
+        <div class="content">
+            <h5>WELCOME TO JANAKPUR</h5>
+            <h1>Visit <span class="changecontent"></span></h1>
+            <p>The Birthplace Of goddess Sita</p>
+             <a href="#section1"><button class="book__now">Explore</button></a>
+        </div>
+    </div>
+    <br><br><br>
+<section class="trip" id="section1">
+   <div class="section__container trip__container">
+  <h2 class="section__title">Destinatons</h2>
+        <center><p class="section__subtitle">
+          List of must visit places and the best tourist spots within Ilam
+        </p></center></div>
+   <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/janakimandir.jpeg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Janaki Mandir</h3>
+            <p align="justify">one of the top attractions of Janakpur, was built in 1898 AD by Queen Brisabhanu Kunwar of Tikamgargh. It reflects a fine blend of Indo-Islamic architecture. The dome of the temple is designed in the fashion of a palace in Rajasthan. The doors are ornately decorated with silver. And it is said that the statue of Sita, the presiding deity of the temple, was found in the Sarya River near Ayodhya.
+            </p>
+
+            <button onclick="toggle()" id="about-btn" class="btn1">Locate</button>
+
+        </div>
+            </section>
+<center>
+<div id="cont" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3563.4321248096176!2d85.9226920746059!3d26.73058306789533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ec40069de3d507%3A0x5e9842f10a951d7f!2sMithila%20explore!5e0!3m2!1sen!2snp!4v1706470242612!5m2!1sen!2snp" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle() {
+    var div= document.getElementById('cont')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/gangasagar.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Dhanush Sagar, Ganga Sagar and Parshuram Kunda</h3>
+            <p align="justify">Janakpurdham is said to have as many as 115 ancient ponds of historical and mythological importance. Among the ponds, Ganga Sagar, Parshuram Kunda and Dhanusha Sagar are held extremely sacred. Dhanush Sagar and Ganga Sagar are two sacred ponds situated near the Ram Mandir. Here, people perform religious ablutions during the early morning hours. However, during the festivals, these ponds become extremely important in the sense that religious ceremonies conducted here. You can also find numerous cisterns all along the place. This also has religious connotations. In fact, these were built by King Janak who anticipated the arrival of Gods after the holy marriage of Rama and Sita. Likewise, Parshuram Kunda is said to be the pond where Maharishi Parshuram bathed to quell his anger after his confrontation with Ram over the breaking of the sacred bow of Shiva. It lies 4 km west of Dhanushadham. The pond is picturesque, with lotus flowers floating on it and lush trees on its southern banks.
+            </p>
+              <button onclick="toggle2()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont2" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14254.00631820394!2d85.91176967256298!3d26.72836552153031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ec4007f3532d19%3A0x42a8839df3243056!2sGanga%20Sagar!5e0!3m2!1sen!2snp!4v1706470300316!5m2!1sen!2snp" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle2() {
+    var div= document.getElementById('cont2')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+        <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/bibahamandir.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Ram Sita Bibaha Mandir</h3>
+            <p align="justify">It is another important place of interest in Janakpur. Almost next door to the Janaki Mandir, this rather bizarre temple marks the spot where Rama and Sita were married. This is actually a pagoda built in the traditional Nepalese form. Apart from these, you will also find the statues of the brothers of Rama. This pagoda was built to commemorate the wedding of Rama and Sita.
+            </p>
+           <button onclick="toggle3()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont3" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57014.718882695284!2d85.8837827695313!3d26.73097240000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ec4004272d21b3%3A0x9d53eac3f112f3cb!2sShree%20Ram%20Janaki%20Biwah%20Mandap!5e0!3m2!1sen!2snp!4v1706470352811!5m2!1sen!2snp" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle3() {
+    var div= document.getElementById('cont3')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/ramamandir.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Ram Mandir</h3>
+            <p align="justify">Ram Mandir, another must visit temple in Mithila, is the oldest temple in Janakpur. It was built by the Gorkhali general Amar Singh Thapa. It is in pagoda style and is located to southeast of the Janaki Mandir. Ram, the Prince of Ayodhya, is the presiding deity of the temple.</p>
+            <button onclick="toggle4()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont4" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14254.008830013046!2d85.9086176725629!3d26.72834547153432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ec6aa7178b2099%3A0x409b43633a40308c!2sShree%20Ram%20Mandir%2C%20Janakpurdham!5e0!3m2!1sen!2snp!4v1706470407600!5m2!1sen!2snp" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle4() {
+    var div= document.getElementById('cont4')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/dhanusadham.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Dhanushadham</h3>
+            <p align="justify">Dhanushadham, situated 18 km north-east of Janakpurdham, is believed to be the place where the broken remains of the divine Shiva bow fell after Ram broke it to obtain Sitaâ€™s hand in marriage. A fossilized fragment of the broken piece is still believed to be present here. Every Sunday in the month of Magh (January/ February), a Makar Mela takes place â€“ a tradition that has been continued since Vedic times. Tens of thousands Hindu devotees from around the world flock here to pay homage to this place.
+            </p>
+            <button onclick="toggle5()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont5" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113877.7211369369!2d85.96549078007284!3d26.881944723492918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ec10cbba7786c3%3A0xcbbb4f8654a21194!2sDhanusadham%2045600!5e0!3m2!1sen!2snp!4v1706470453656!5m2!1sen!2snp" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle5() {
+    var div= document.getElementById('cont5')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+     
+</section>
+
+     <section class="trip" id="section2">
+ <div class="section__container trip__container">
+  <h2 class="section__title">Guides</h2>
+        <center><p class="section__subtitle">
+          List of Fully experienced Guides to help you explore Ilam
+        </p></center>
+    <section class="lmnop" id="lmnop">
+      <div class="swiper mySwiper container">
+        <div class="swiper-wrapper content">
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide1.jpg" alt="" />
+              </div>
+
+              <div class="media-icons">
+             <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Shreyas Manandhar</span>
+             <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+               <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide2.jpeg" alt="" />
+              </div>
+
+              <div class="media-icons">
+       <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Ramesh Thakuri</span>
+          <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+                <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide3.avif" alt="" />
+              </div>
+
+              <div class="media-icons">
+                  <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Hari Paudel</span>
+                <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+                 <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide4.jpg" alt="" />
+              </div>
+
+              <div class="media-icons">
+       <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Ramesh Thakuri</span>
+          <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+                <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide5.jpeg" alt="" />
+              </div>
+
+              <div class="media-icons">
+                   <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Janak Mahato</span>
+                <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+                <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide6.jpg" alt="" />
+              </div>
+
+              <div class="media-icons">
+             <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Indra Sahi</span>
+                  <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+            <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide7.jpg" alt="" />
+              </div>
+
+              <div class="media-icons">
+               <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Anjit Khadka</span>
+                <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+ <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide8.jpg" alt="" />
+              </div>
+
+              <div class="media-icons">
+       <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Abiral Shrestha</span>
+      <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+             <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide9.jpeg" alt="" />
+              </div>
+
+              <div class="media-icons">
+                <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Subham Subedi</span>
+                <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+                <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+      </div>
+    </section>
+  </div>
+ </section>
+  <section class="trip"  id="section3">
+ <div class="section__container trip__container">
+  <h2 class="section__title">Accomodations</h2>
+        <center><p class="section__subtitle">
+          List of the best exclusive Hotels for Accomodation in Ilam
+        </p></center>
+         <div class="trip__grid">
+          <div class="trip__card">
+            <img src="assets/htlcitypark.jpeg" alt="trip" />
+            <div class="trip__details">
+              <p><b>HOTEL CITY PARK PVT.LTD.</b><br>Janakpur 45600</p>
+              <div class="rating"><i class="ri-star-fill"></i> 4.2</div>
+              <div class="booking__price">
+                <div class="price"><span>Price</span> varies</div>
+                 <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj4ycSt6oCEAxWUe2wGHW82B_EQFnoECBQQAQ&url=https%3A%2F%2Fwww.tripadvisor.com%2FHotel_Review-g424939-d23852543-Reviews-Hotel_City_Park-Janakpur_Janakpur_Zone_Central_Region.html&usg=AOvVaw0IhFV8r5ZcutjoN3h4MTmY&opi=89978449"><button class="book__now">Show</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="trip__card">
+            <img src="assets/htlsitasharan.jpeg" alt="trip" />
+            <div class="trip__details">
+              <p><b>Hotel Sitasharan</b><br>PWC6+GQV, Janakpur 23</p>
+              <div class="rating"><i class="ri-star-fill"></i> 4.5</div>
+              <div class="booking__price">
+                 <div class="price"><span>Price</span> varies </div>
+                <a href="http://www.hotelsitasharan.com/"><button class="book__now">Show</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="trip__card">
+            <img src="assets/mithilaynivhtl.jpg" alt="trip" />
+            <div class="trip__details">
+              <p><b>Mithila Yatri Niwas</b><br>PWJF+V2W, Janakpur 45600</p>
+              <div class="rating"><i class="ri-star-fill"></i> 4.7</div>
+              <div class="booking__price">
+                 <div class="price"><span>Price</span> varies </div>
+                 <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjZlrWT64CEAxXiXWwGHYPUAksQFnoECCAQAQ&url=https%3A%2F%2Fmithilayatriniwas.com%2F&usg=AOvVaw0UeJk_H36f9VA_5MZlA6ou&opi=89978449"><button class="book__now">Show</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+         <div class="trip__grid">
+          <div class="trip__card">
+            <img src="assets/welcomehtl.avif" alt="trip" />
+            <div class="trip__details">
+              <p><b>Hotel Welcome</b><br>Janakpur 45600</p>
+              <div class="rating"><i class="ri-star-fill"></i> 4.2</div>
+              <div class="booking__price">
+                <div class="price"><span>Price</span> varies</div>
+                 <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjH2MnI64CEAxUqUWwGHTzNBGwQFnoECA4QAQ&url=https%3A%2F%2Fwww.agoda.com%2Fhotel-welcome%2Fhotel%2Fjanakpur-np.html&usg=AOvVaw24643Ms030u_rrHO8zzvjY&opi=89978449"><button class="book__now">Show</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="trip__card">
+            <img src="assets/vrindavanplchtl.jpeg" alt="trip" />
+            <div class="trip__details">
+              <p><b>Hotel Vrindavan Palace</b> <br>Janakpur 45600</p>
+              <div class="rating"><i class="ri-star-fill"></i> 4.5</div>
+              <div class="booking__price">
+                 <div class="price"><span>Price</span> varies</div>
+                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjVlaeH7ICEAxUcd2wGHXk0AcsQFnoECBUQAQ&url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fnp%2Fvrindavan-palace.html&usg=AOvVaw1FhKhBjHcTF0PDviDD7Vap&opi=89978449"><button class="book__now">Show</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="trip__card">
+            <img src="assets/janakistarhtl.jpg" alt="trip" />
+            <div class="trip__details">
+              <p><b>Janaki Star Hotel</b> <br>Janakpur 45600</p>
+              <div class="rating"><i class="ri-star-fill"></i> 4.7</div>
+              <div class="booking__price">
+                 <div class="price"><span>Price</span> varies </div>
+                 <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi8p-Kq7ICEAxWpTmwGHe9TBcoQFnoECBMQAQ&url=https%3A%2F%2Fjanakistarhotel.com%2F&usg=AOvVaw0VTwWTUTypEYzQ6ADjK1of&opi=89978449"><button class="book__now">Show</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+ </section>
+
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <section class="gallary">
+      <div class="section__container gallary__container">
+        <div class="image__gallary">
+          <div class="gallary__col">
+            <img src="assets/101.jpg" alt="gallary" />
+          </div>
+          <div class="gallary__col">
+            <img src="assets/103.jpg" alt="gallary" />
+            <img src="assets/102.jpg" alt="gallary" />
+          </div>
+        </div>
+        <div class="gallary__content">
+          <div>
+            <h2 class="section__title">
+              Our trip gallary that will inspire you
+            </h2>
+            <p class="section__subtitle">
+              Explore moments captured from various places all over Nepal. Here you
+              can find your right destination.
+            </p>
+           <a href="gallary.html"><button class="btn">View All</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br><br>
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h3>NepTour<span>.</span></h3>
+          <p>
+            Explore the Land Of Truth with us covering your backs and guiding you through the beauty of nepal.
+          </p>
+        </div>
+        <div class="footer__col">
+         <center><img src="assets/wasitkrish.jpg" style="width: 140px; height: 140px;"><br><p>@wasitkrish</p></center>
+        </div>
+        <div class="footer__col">
+          <h4>Address</h4>
+          <p>
+            <span>Address:</span> Sankhamul, Kathmandu, Nepal
+          </p>
+          <p><span>Email:</span> NepTour@krishsingh.com.np</p>
+          <p><span>Phone:</span>+977 9865365520</p>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2023 https://Krishsingh.com.np/. All rights reserved.
+      </div>
+    </footer>
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+        if (hamburger && navLinks) {
+            hamburger.addEventListener('click', function() {
+                navLinks.classList.toggle('active');
+                hamburger.classList.toggle('active');
+            });
+            const links = document.querySelectorAll('.nav__links .link a');
+            links.forEach(link => {
+                link.addEventListener('click', function() {
+                    navLinks.classList.remove('active');
+                    hamburger.classList.remove('active');
+                });
+            });
+        }
+    </script>
+</body>
+
+ </html>

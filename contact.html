@@ -1,0 +1,948 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+    <link rel="stylesheet" href="styles.css" />
+     <link rel = "icon" href =  "AI/logo.png" type = "image/x-icon"> 
+    <title>NepTour By StepBro</title>
+  </head>
+<body>
+    <nav>
+ <div class="nav__logo">NepTour<span>.</span></div>
+      <ul class="nav__links" id="nav-links">
+        <li class="link"><a href="index.html">Home</a></li>
+        <li class="link"><a href="index.html#section1">Destinations</a></li>
+        <li class="link"><a href="index.html#section2">Guides</a></li>
+        <li class="link"><a href="index.html#section3">Packages</a></li>
+      </ul>
+      <a href="contact.html"><button class="btn">Contact Us</button></a>
+          <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <div class=" section-gap"></div>
+<div class="wrapper">
+  <h4 class="sub-title text-center">wanna talk ?</h4>
+  <h3 class="global-title text-center">Contact Me</h3>
+  <div class="d-grid contact-view">
+    <div class="cont-details">
+
+
+      <div class="cont-top">
+
+        <div class="cont-left text-center">
+          <span class="fa fa-phone text-primary"></span>
+        </div>
+
+        <div class="cont-right">
+          <h6>Call Me</h6>
+          <p><a href="tel:9865365520">9865365520</a></p>
+        </div>
+
+      </div>
+
+
+      <div class="cont-top margin-up">
+
+        <div class="cont-left text-center">
+          <span class="fa fa-envelope text-primary"></span>
+        </div>
+        <div class="cont-right">
+          <h6>Email Me</h6>
+          <p><a href="mailto:NepTour@krishsingh.com.np" class="mail">NepTour@krishsingh.com.np</a></p>
+        </div>
+        
+      </div>
+
+
+      <div class="cont-top margin-up">
+        <div class="cont-left text-center">
+          <span class="fa fa-map-marker text-primary"></span>
+        </div>
+        <div class="cont-right">
+          <h6>Address</h6>
+          <p>Sankhamul, Kathmandu, Nepal.</p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="map-content">
+      <form action="https://formsubmit.co/66ab23c3d08018ed45f9df4d9f8f6bc1" method="POST">
+        <div class="twice-two">
+          <input type="text" class="form-control" name="name" id="w3lName" placeholder="Name" required="">
+          <input type="email" class="form-control" name="email" id="w3lSender" placeholder="Email"
+            required="">
+        </div>
+
+        <div class="twice">
+          <input type="text" class="form-control" name="w3lSubject" id="w3lSubject" placeholder="Subject"
+            required="">
+        </div>
+
+        <textarea name="w3lMessage" class="form-control" id="w3lMessage" placeholder="Message"
+          required=""></textarea>
+        <button type="submit" class="btn btn-contact">Send Message</button>
+      </form>
+    </div>
+
+
+
+  </div>
+</div>
+<br><br><br><br><br>
+
+<style type="text/css">
+  body,
+html {
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+}
+
+textarea {
+font-family: sans-serif;
+}
+
+* {
+box-sizing: border-box;
+}
+
+.wrapper {
+width: 100%;
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+}
+
+@media (min-width: 576px) {
+.wrapper {
+max-width: 540px;
+}
+}
+
+@media (min-width: 768px) {
+.wrapper {
+max-width: 720px;
+}
+}
+
+@media (min-width: 992px) {
+.wrapper {
+max-width: 960px;
+}
+}
+
+@media (min-width: 1200px) {
+.wrapper {
+max-width: 1140px;
+}
+}
+
+.d-grid {
+display: grid;
+}
+
+.text-center {
+text-align: center;
+}
+
+.text-left {
+text-align: left;
+}
+
+.text-right {
+text-align: right;
+}
+
+button,
+select {
+outline: none;
+appearance: none;
+}
+
+button,
+.btn,
+select {
+cursor: pointer;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin: 0;
+padding: 0;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+p {
+margin: 0;
+padding: 0;
+}
+
+/* Section top bottom gap */
+.section-gap {
+padding: 4.5rem 0;
+}
+
+@media screen and (max-width:767px) {
+.section-gap {
+padding: 3.5rem 0;
+}
+}
+
+@media screen and (max-width:480px) {
+.section-gap {
+padding: 3rem 0;
+}
+}
+/* / Section top bottom gap */
+
+/* title-styling */
+h3.global-title {
+font-size: 40px;
+line-height: 45px;
+color: #000000;
+margin-bottom: 50px;
+text-transform: capitalize;
+}
+
+@media screen and (max-width:767px) {
+h3.global-title {
+font-size: 40px;
+line-height: 45px;
+}
+}
+
+@media screen and (max-width:600px) {
+h3.global-title {
+font-size: 35px;
+line-height: 40px;
+}
+}
+
+@media screen and (max-width:500px) {
+h3.global-title {
+font-size: 30px;
+line-height: 35px;
+}
+}
+/* / title-styling */
+
+
+/* contact1 */
+.margin-up {
+margin-top: 2.5rem;
+}
+
+h4.sub-title {
+font-size: 16px;
+margin: 0;
+color: #3685fbff;
+font-weight: normal;
+}
+
+.contact-view {
+grid-template-columns: 1fr 1.3fr;
+grid-gap: 30px;
+}
+
+.cont-top {
+display: grid;
+grid-template-columns: 20px auto;
+grid-column-gap: 20px;
+}
+
+.twice {
+margin-bottom: 20px;
+}
+
+.cont-details span.fa {
+font-size: 22px;
+color: #3685fb;
+display: block;
+margin-top: 3px;
+}
+
+.cont-details h6 {
+font-size: 20px;
+color: #000000;
+font-weight: 600;
+}
+
+.cont-details p,
+.cont-details p a {
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #777777;
+margin-top: 3px;
+}
+
+.cont-details p a:hover {
+text-decoration: underline;
+opacity: 0.8;
+color: #000000;
+}
+
+.cont-details address {
+margin: 25px 0;
+}
+
+.cont-details address p {
+margin: 5px 0;
+}
+
+.twice-two {
+display: grid;
+grid-gap: 20px;
+grid-template-columns: 1fr 1fr;
+margin-bottom: 20px;
+}
+
+.map-content form input,
+.map-content form textarea {
+background: #f8f9fa;
+border: 2px solid rgba(216, 216, 216, 0.3);
+color: #777;
+font-size: 16px;
+padding: 12px 15px;
+width: 100%;
+border-radius: 4px;
+height: 55px;
+}
+
+.map-content h5 {
+font-size: 25px;
+line-height: 30px;
+margin-bottom: 20px;
+color: #000000;
+}
+
+.map-content form textarea {
+resize: none;
+min-height: 140px;
+}
+
+.map-content form input:focus,
+.map-content form textarea:focus {
+outline: none;
+border: 2px solid #fff;
+background: #fff;
+box-shadow: none;
+}
+
+button.btn-contact {
+border: none;
+font-size: 16px;
+padding: 15px 30px;
+margin: 20px auto 0;
+color: #fff;
+background: #3685fb;
+border-color: #3685fb;
+display: inline-block;
+font-weight: 400;
+text-align: center;
+vertical-align: middle;
+cursor: pointer;
+
+user-select: none;
+border: 1px solid transparent;
+border-radius: 0.25rem;
+}
+
+.cont-details h6 a {
+color: #fff;
+}
+
+/* contact1-responsive */
+@media(max-width: 992px) {
+
+.cont-details p,
+.cont-details p a {
+font-size: 16px;
+}
+
+.cont-details h5 {
+font-size: 32px;
+line-height: 35px;
+}
+
+.contact-view {
+grid-template-columns: 1fr;
+}
+
+.map-content {
+margin-top: 40px;
+}
+
+h3.global-title {
+font-size: 32px;
+line-height: 38px;
+margin-bottom: 30px;
+}
+}
+
+@media(max-width: 768px) {
+.cont-details h6 {
+font-size: 18px;
+}
+
+.cont-top {
+grid-column-gap: 15px;
+}
+
+.margin-up {
+margin-top: 2rem;
+}
+
+h3.global-title {
+font-size: 28px;
+line-height: 34px;
+}
+
+h4.sub-title {
+font-size: 14px;
+}
+}
+
+@media(max-width: 480px) {
+.twice-two {
+grid-template-columns: 1fr;
+}
+
+button.btn-contact {
+width: 100%;
+padding: 12px 20px;
+}
+
+.contact-view {
+grid-gap: 20px;
+}
+
+.cont-details h6 {
+font-size: 16px;
+}
+
+.cont-details p,
+.cont-details p a {
+font-size: 14px;
+}
+
+.map-content form input,
+.map-content form textarea {
+font-size: 14px;
+padding: 10px 12px;
+height: 48px;
+}
+
+.map-content form textarea {
+min-height: 120px;
+}
+
+h3.global-title {
+font-size: 24px;
+line-height: 30px;
+margin-bottom: 25px;
+}
+
+h4.sub-title {
+font-size: 13px;
+}
+
+.margin-up {
+margin-top: 1.5rem;
+}
+}
+</style>
+     <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h3>NepTour<span>.</span></h3>
+          <p>
+            Explore the Land Of Truth with us covering your backs and guiding you through the beauty of nepal.
+          </p>
+        </div>
+        <div class="footer__col">
+         <center><img src="assets/wasitkrish.jpg" style="width: 140px; height: 140px;"><br><p>@wasitkrish</p></center>
+        </div>
+        <div class="footer__col">
+          <h4>Address</h4>
+          <p>
+            <span>Address:</span> Sankhamul, Kathmandu, Nepal
+          </p>
+          <p><span>Email:</span> NepTour@krishsingh.com.np</p>
+          <p><span>Phone:</span>+977 9865365520</p>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2023 https://Krishsingh.com.np/. All rights reserved.
+      </div>
+    </footer>
+
+    
+
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+:root {
+  --primary-color: #3685fb;
+  --primary-color-dark: #2f73d9;
+  --secondary-color: #fafcff;
+  --text-dark: #0d213f;
+  --text-light: #767268;
+  --extra-light: #ffffff;
+  --max-width: 1200px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  padding: 1rem;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: var(--max-width);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  cursor: pointer;
+}
+
+.nav__logo span {
+  color: var(--primary-color);
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.link a {
+  padding: 0 1rem;
+  color: var(--text-dark);
+  transition: 0.3s;
+}
+
+.link a:hover {
+  color: var(--primary-color);
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background-color: var(--text-dark);
+  margin: 3px 0;
+  transition: 0.3s;
+  border-radius: 3px;
+}
+
+.hamburger.active span:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+header {
+  background-color: var(--secondary-color);
+}
+
+.header__container {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.header__image {
+  position: relative;
+}
+
+.header__image img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 0.5rem solid var(--extra-light);
+  border-radius: 2rem;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.header__image img:nth-child(1) {
+  max-width: 350px;
+  transform: translate(-75%, -50%);
+}
+
+.header__image img:nth-child(2) {
+  max-width: 250px;
+  transform: translate(0%, -25%);
+}
+
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__content > div {
+  max-width: 400px;
+  display: grid;
+  gap: 1rem;
+}
+
+.header__content .sub__header {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.header__content h1 {
+  font-size: 3rem;
+  line-height: 4rem;
+  font-weight: 800;
+  color: var(--text-dark);
+}
+
+.header__content .action__btns {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+input:focus{
+    outline: none;
+}
+.footer {
+  background-color: var(--text-dark);
+}
+
+.footer__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+  color: var(--secondary-color);
+}
+
+.footer__col h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.footer__col h3 span {
+  color: var(--primary-color);
+}
+
+.footer__col p {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer__col p:hover {
+  color: var(--primary-color);
+}
+
+.footer__col p span {
+  font-weight: 600;
+}
+
+.footer__col h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.footer__bar {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--secondary-color);
+  border-top: 1px solid var(--text-light);
+}
+
+@media (width < 1200px) {
+  .header__image img:nth-child(1) {
+    max-width: 300px;
+  }
+
+  .header__image img:nth-child(2) {
+    max-width: 200px;
+  }
+}
+
+@media (width < 900px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .nav__links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 70%;
+    max-width: 300px;
+    background-color: var(--extra-light);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    z-index: 99;
+  }
+
+  .nav__links.active {
+    right: 0;
+  }
+
+  .link a {
+    font-size: 1.2rem;
+  }
+
+  nav .btn {
+    display: none;
+  }
+
+  .header__container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .header__image {
+    min-height: 500px;
+  }
+
+  .destination__grid {
+    gap: 1rem;
+  }
+
+  .trip__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width < 600px) {
+  .destination__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .trip__grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .gallary__container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .subscribe__container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .footer__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+.section__container2 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.header2 {
+  margin-bottom: 2rem;
+}
+
+.header2 p {
+  letter-spacing: 2px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+
+
+.testimonials__grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  padding: 2rem;
+  display: grid;
+  gap: 1rem;
+  background-color: var(--extra-light);
+  border-radius: 5px;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.card i {
+  font-size: 2.5rem;
+  color: #3685fb;
+}
+
+.card p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.card hr {
+  width: 40px;
+  margin: auto;
+  color: var(--text-light);
+}
+
+.card img {
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  border-radius: 100%;
+  border: 1px solid var(--primary-color);
+}
+
+.card .name {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--text-light);
+  transition: 0.3s;
+}
+
+.card .name:hover {
+  color: var(--primary-color);
+}
+
+
+@media (width < 900px) {
+  .testimonials__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+
+@media (width < 600px) {
+  .testimonials__grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
+
+
+
+
+
+
+.chatbot-toggler {
+  position: fixed;
+  bottom: 30px;
+  right: 35px;
+  outline: none;
+  border: none;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #000;
+  transition: all 0.2s ease;
+}
+
+
+
+    </style>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+        if (hamburger && navLinks) {
+            hamburger.addEventListener('click', function() {
+                navLinks.classList.toggle('active');
+                hamburger.classList.toggle('active');
+            });
+            const links = document.querySelectorAll('.nav__links .link a');
+            links.forEach(link => {
+                link.addEventListener('click', function() {
+                    navLinks.classList.remove('active');
+                    hamburger.classList.remove('active');
+                });
+            });
+        }
+    </script>
+</body>
+</html>

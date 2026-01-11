@@ -1,0 +1,603 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+    <link rel="stylesheet" href="subdiv.css" />
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet"/>
+     <link rel = "icon" href =  "AI/logo.png" type = "image/x-icon"> 
+         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <title>NepTour By StepBro</title>
+    <style>
+      @keyframes changetext{
+        0%{content: "Annapurna Circuit";}
+        10%{content: "Beshishahar";}
+        20%{content: "Poon Hill";}
+        30%{content: "Thorang/Thorung La (Pass)";}
+        40%{content: "Gangapurna glacier lake";}
+        50%{content: " Upper Pisang";}
+        60%{content: "Upper Pisang";}
+        70%{content: "Thorang/Thorung La (Pass)";}
+        80%{content: "Beshishahar";}
+        90%{content: "Poon Hill";}
+        100%{content: "Manang";}
+    } 
+    .home{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)), url(./assets/annapurna.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    </style>
+  </head>
+  <body>
+       <nav>
+      <div class="nav__logo">NepTour<span>.</span></div>
+      <ul class="nav__links" id="nav-links">
+        <li class="link"><a href="index.html">Home</a></li>
+        <li class="link"><a href="#section3">Accomodation</a></li>
+        <li class="link"><a href="#section2">Guides</a></li>
+        <li class="link"><a href="#section1">Destinations</a></li>
+      </ul>
+      <a href="contact.html"><button class="btn">Contact Us</button></a>
+          <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav><br><br><br>
+  <div class="home">
+        <div class="content">
+            <h5>WELCOME TO Annapurna Circuit</h5>
+            <h1>Visit <span class="changecontent"></span></h1>
+            <p>The Walk Along The Mountains</p>
+             <a href="#section1"><button class="book__now">Explore</button></a>
+        </div>
+    </div>
+    <br><br><br>
+<section class="trip" id="section1">
+   <div class="section__container trip__container">
+  <h2 class="section__title">Destinatons</h2>
+        <center><p class="section__subtitle">
+          List of must visit places and the best tourist spots within Annapurna Circuit
+        </p></center></div>
+   <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/besisahar.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Beshishahar</h3>
+            <p align="justify">To reach the Annapurna Circuit, one will have to first take a road trip to Beshishahar of Lamjung. From Kathmandu, it is a five to seven hoursâ€™ journey on a bus. The majority of trekkers start their trek from Beshishahar, the Lamjung district headquarters. But, to shorten the trek, some even choose Chame or Pisang of Manang as their starting point.
+
+              The trek from Beshishahar is best suited since you get to experience the trek with beautiful scenic beauty, ancient traditional fountains, and waterfalls. 
+              
+              
+            </p>
+
+            <button onclick="toggle()" id="about-btn" class="btn1">Locate</button>
+
+        </div>
+            </section>
+<center>
+<div id="cont" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3515.0269163071357!2d84.36922187494223!3d28.236862701939376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39957399323715b9%3A0xd45aa19619d1317c!2sBesisahar%2C%20Lamjung!5e0!3m2!1sen!2snp!4v1706571502845!5m2!1sen!2snp" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle() {
+    var div= document.getElementById('cont')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/pisangup.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Upper Pisang</h3>
+            <p align="justify">Located in the Marshyangdi river valley at an altitude of 3,250 m, Pisang village is a deserted village of Gurungs, Ghales, and Tibetan immigrants. There are various ancient-style hotels and lodges to stay in and have beautiful sightseeing having. Taking a tour of the village, you experience traditional beauty, mountains, and simply amazing environment around.
+            </p>
+              <button onclick="toggle2()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont2" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.4560163864953!2d84.15053657495616!3d28.61609188482801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39be2918169a3c03%3A0x90f5c731a4a0e833!2sUpper%20Pisang%2C%20Pisang%2033500!5e0!3m2!1sen!2snp!4v1706571661977!5m2!1sen!2snp" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle2() {
+    var div= document.getElementById('cont2')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+        <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/manang.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Manang</h3>
+            <p align="justify">After crossing the Pisang and Braga villages and their amazing landscape and scenic beauty, you reach Manang (3,540 m). Manang is a traditional ancient town with wonderful traditional foundations and astonishing mountain views. 
+
+              Manang is the largest town on the Annapurna Circuit trek. With arid landscapes, Manang is a rain shadow area with prevailing winds and views comprising traditional villages, temples, monasteries, mountains and viewpoints that relax the trek stress and give soothing relaxation.
+            </p>
+           <button onclick="toggle3()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont3" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14003.069268559257!2d84.00636724716666!3d28.666684937965304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39be23882a951d9b%3A0xbfbf63c4a40c37a7!2sManang%2033500!5e0!3m2!1sen!2snp!4v1706571752803!5m2!1sen!2snp" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle3() {
+    var div= document.getElementById('cont3')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/Gangapurna.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Gangapurna glacier lake</h3>
+            <p align="justify">The Gangapurna glacier lake is such a lake that gives portrayal of a freezing waterfall. In spring and autumn, it looks cyan; in the monsoon, white; and freezes completely in the winter. 
+
+              At an altitude of 4,620 m, the froze-up lake is very satisfying to watch on the trek. It is in fact the second most desired tourist attraction in the Annapurna circuit after Tilicho lake. Similarly, the largest and heaviest bird of the mountainous region, the Himalayan vulture, can also be seen roaming in the sky above the lake.</p>
+            <button onclick="toggle4()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont4" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1750.441254761108!2d84.01574503857596!3d28.66323639742931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39be2475f95cd46b%3A0x74a3cc8dd880d4dd!2sGangapurna%20lake!5e0!3m2!1sen!2snp!4v1706571895051!5m2!1sen!2snp" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle4() {
+    var div= document.getElementById('cont4')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/thorangpass.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Thorang/Thorung La (Pass)</h3>
+            <p align="justify">Thorang/Thorung La (Pass), at an altitude of 5,416 m, is the highest point of the Annapurna Circuit trek. Located at such a height, the trek to this point is considered the most difficult and challenging one in the area. But once the trekkers reach the end, it journey will be worth it; one of your lifeâ€™s biggest achievements. 
+
+              From the top, one can get a mesmerising view of the Annapurna Himalaya range and Great Barrier Ridge, and the scenic deserted landscape.
+            </p>
+            <button onclick="toggle5()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont5" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13986.103918578225!2d83.92836924724233!3d28.793395664053417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39be3d8cb604d6e1%3A0x428cc66273ddacaf!2sThorong%20La!5e0!3m2!1sen!2snp!4v1706572088392!5m2!1sen!2snp" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle5() {
+    var div= document.getElementById('cont5')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+<section class="about" id="about">
+  <div class="about-img">
+      <img src="assets/poonhill.jpg" alt="">
+  </div>
+  <div class="about-text">
+      <h3>Poon Hill</h3>
+      <p align="justify">Many who wish to make the trek longer, pass through Poon Hill. At an altitude of 3,193 m, the Ghorepani-Poon Hill trek is a bonus destination place to travel even though, the trek from Jomsom to Poon Hill is a different trip and can be tiresome, there are some who go through the trek. The trek is one of the easiest routes separately, and very popular.
+
+        With a sight of pleasing and eye-catching sunrise and sunset and a clear view of the mountain ranges and mountains like Dhaulagiri, Manaslu, and Annapurna I, this place is a famous destination in the Annapurna circuit. On the trekking path from Jomsom to Poon Hill, one can see the blooming rhododendron forest along with places like Larjung, Ghasa and Tatopani and the entire experience will be mesmerising.
+      </p>
+      <button onclick="toggle5()" id="about-btn" class="btn1">Locate</button>
+  </div>
+</section>
+<center>
+<div id="cont5" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14038.523530340975!2d83.67899884700873!3d28.400214637975864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3995fb901538e619%3A0x8c8090bd893ea23a!2sPoon%20Hill!5e0!3m2!1sen!2snp!4v1706572184321!5m2!1sen!2snp" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+function toggle5() {
+var div= document.getElementById('cont5')
+if (div.style.display=="none") {}
+div.style.display="block";
+}
+</script>
+     
+</section>
+
+     <section class="trip" id="section2">
+ <div class="section__container trip__container">
+  <h2 class="section__title">Guides</h2>
+        <center><p class="section__subtitle">
+          List of Fully experienced Guides to help you explore Annapurna Circuit
+        </p></center>
+    <section class="lmnop" id="lmnop">
+      <div class="swiper mySwiper container">
+        <div class="swiper-wrapper content">
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide1.jpg" alt="" />
+              </div>
+
+              <div class="media-icons">
+             <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Shreyas Manandhar</span>
+             <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+               <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide2.jpeg" alt="" />
+              </div>
+
+              <div class="media-icons">
+       <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Ramesh Thakuri</span>
+          <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+                <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide3.avif" alt="" />
+              </div>
+
+              <div class="media-icons">
+                  <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Hari Paudel</span>
+                <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+                 <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide4.jpg" alt="" />
+              </div>
+
+              <div class="media-icons">
+       <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Ramesh Thakuri</span>
+          <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+                <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide5.jpeg" alt="" />
+              </div>
+
+              <div class="media-icons">
+                   <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Janak Mahato</span>
+                <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+                <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide6.jpg" alt="" />
+              </div>
+
+              <div class="media-icons">
+             <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Indra Sahi</span>
+                  <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+            <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide7.jpg" alt="" />
+              </div>
+
+              <div class="media-icons">
+               <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Anjit Khadka</span>
+                <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+ <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide8.jpg" alt="" />
+              </div>
+
+              <div class="media-icons">
+       <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Abiral Shrestha</span>
+      <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+             <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide9.jpeg" alt="" />
+              </div>
+
+              <div class="media-icons">
+                <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Subham Subedi</span>
+                <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+                <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+      </div>
+    </section>
+  </div>
+ </section>
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <section class="gallary">
+      <div class="section__container gallary__container">
+        <div class="image__gallary">
+          <div class="gallary__col">
+            <img src="assets/101.jpg" alt="gallary" />
+          </div>
+          <div class="gallary__col">
+            <img src="assets/103.jpg" alt="gallary" />
+            <img src="assets/102.jpg" alt="gallary" />
+          </div>
+        </div>
+        <div class="gallary__content">
+          <div>
+            <h2 class="section__title">
+              Our trip gallary that will inspire you
+            </h2>
+            <p class="section__subtitle">
+              Explore moments captured from various places all over Nepal. Here you
+              can find your right destination.
+            </p>
+           <a href="gallary.html"><button class="btn">View All</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br><br>
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h3>NepTour<span>.</span></h3>
+          <p>
+            Explore the Land Of Truth with us covering your backs and guiding you through the beauty of nepal.
+          </p>
+        </div>
+        <div class="footer__col">
+         <center><img src="assets/wasitkrish.jpg" style="width: 140px; height: 140px;"><br><p>@wasitkrish</p></center>
+        </div>
+        <div class="footer__col">
+          <h4>Address</h4>
+          <p>
+            <span>Address:</span> Sankhamul, Kathmandu, Nepal
+          </p>
+          <p><span>Email:</span> NepTour@krishsingh.com.np</p>
+          <p><span>Phone:</span>+977 9865365520</p>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2023 https://Krishsingh.com.np/. All rights reserved.
+      </div>
+    </footer>
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+        if (hamburger && navLinks) {
+            hamburger.addEventListener('click', function() {
+                navLinks.classList.toggle('active');
+                hamburger.classList.toggle('active');
+            });
+            const links = document.querySelectorAll('.nav__links .link a');
+            links.forEach(link => {
+                link.addEventListener('click', function() {
+                    navLinks.classList.remove('active');
+                    hamburger.classList.remove('active');
+                });
+            });
+        }
+    </script>
+</body>
+
+ </html>

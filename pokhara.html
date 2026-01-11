@@ -1,0 +1,749 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+    <link rel="stylesheet" href="subdiv.css" />
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet"/>
+     <link rel = "icon" href =  "AI/logo.png" type = "image/x-icon"> 
+         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <title>NepTour By StepBro</title>
+    <style>
+      @keyframes changetext{
+        0%{content: "Pokhara";}
+        10%{content: "Davis/Devis Falls";}
+        20%{content: "Pokhara Shanti Stupa";}
+        30%{content: "International Mountain Museum";}
+        40%{content: "Sarangkot";}
+        50%{content: "Shree Gaden Dhargay Ling Monastery";}
+        60%{content: "Begnas Taal";}
+        70%{content: "Shree Bindhyabasini Temple";}
+        80%{content: "Bat Cave";}
+        90%{content: "Gupteshwar Mahadev";}
+        100%{content: "Phewa Lake";}
+    } 
+    .home{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)), url(./assets/pokhara.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    </style>
+  </head>
+  <body>
+       <nav>
+      <div class="nav__logo">NepTour<span>.</span></div>
+      <ul class="nav__links" id="nav-links">
+        <li class="link"><a href="index.html">Home</a></li>
+        <li class="link"><a href="#section3">Accomodation</a></li>
+        <li class="link"><a href="#section2">Guides</a></li>
+        <li class="link"><a href="#section1">Destinations</a></li>
+      </ul>
+      <a href="contact.html"><button class="btn">Contact Us</button></a>
+          <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav><br><br><br>
+  <div class="home">
+        <div class="content">
+            <h5>WELCOME TO POKHARA</h5>
+            <h1>Visit <span class="changecontent"></span></h1>
+            <p>The Tourist Capital and The City Of Lakes</p>
+             <a href="#section1"><button class="book__now">Explore</button></a>
+        </div>
+    </div>
+    <br><br><br>
+<section class="trip" id="section1">
+   <div class="section__container trip__container">
+  <h2 class="section__title">Destinatons</h2>
+        <center><p class="section__subtitle">
+          List of must visit places and the best tourist spots within Pokhara Valley
+        </p></center></div>
+   <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/devifall.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Davis/Devis Falls</h3>
+            <p align="justify">Located at a distance of 2 km from the airport, this stunning waterfall is one of the best places to visit in Pokhara. In the Nepalese language, this waterfall is known as â€˜Patale Changoâ€™ which translates to â€˜underground waterfallâ€™. One extraordinary thing about this waterfall is that it creates a 500-feet-long underground tunnel as it reaches its bottom. This means that the water from this waterfall does not flow to a river or lagoon but into a mysterious dark hole that eventually disappears in the caves.
+            </p>
+
+            <button onclick="toggle()" id="about-btn" class="btn1">Locate</button>
+
+        </div>
+            </section>
+<center>
+<div id="cont" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3516.5838492538855!2d83.95608877525613!3d28.189568904058593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399595134e82378f%3A0xb581716c3b162f6b!2sDevi&#39;s%20Fall%20Pokhara!5e0!3m2!1snl!2snl!4v1706438686468!5m2!1snl!2snl" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle() {
+    var div= document.getElementById('cont')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/plake.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Phewa Lake</h3>
+            <p align="justify">Phewa Lake is the second largest lake in Nepal and is very popular among tourists coming to Pokhara. It is a semi-natural freshwater lake that is surrounded by Rani Ban. Here, one can see the stunning reflection of the Annapurna and Dhaulagiri mountain ranges in the crystal clear water of the lake. Hiring a traditional boat called a doonga and sailing through the lake is definitely the best way to admire the natural beauty of this place.
+              Another nearby attraction for people visiting this lake is the Tal Barahi Temple. Also known as the Lake Temple or Barahi Temple, this is one of the most important religious places for Hindus in Nepal. Built in 1864 by Kaskeli King Kulmandan Singh, this temple is dedicated to the goddess Durga (known as goddess Varahi in Nepal).
+            </p>
+              <button onclick="toggle2()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont2" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28126.85408964286!2d83.92920587294466!3d28.211664175178736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39959520918498bb%3A0xfca6adfa336fd6c7!2sPhewa%20Lake!5e0!3m2!1snl!2snl!4v1706439001709!5m2!1snl!2snl" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle2() {
+    var div= document.getElementById('cont2')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+        <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/shantistupa.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Pokhara Shanti Stupa</h3>
+            <p align="justify">Also known as the Peace Pagoda, Pokharaâ€™s Shanti Stupa is a beautiful Buddhist monument which is located on the top of Anadu Hill. Built by Morioko Sonin, a Nipponzan Myohoji monk, this pristine white-coloured monument is a fine example of the traditional pagoda architectural style. This is the first peace pagoda in the country and the 71st in the world. With a height of 115 feet and a diameter of 344 feet, this monument offers a stunning view of the Phewa Lake and is definitely one of the important places to visit in Pokhara.
+            </p>
+           <button onclick="toggle3()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont3" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.047173409761!2d83.27369717523325!3d27.498908334654406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399693695e704b5d%3A0x76602d53c80a3248!2sWorld%20Peace%20Pagoda!5e0!3m2!1snl!2snl!4v1706439198471!5m2!1snl!2snl" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle3() {
+    var div= document.getElementById('cont3')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/mmtmuseum.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>International Mountain Museum</h3>
+            <p align="justify">For people who find facts about mountains and mountaineering extremely fascinating, this is a must-visit place in Pokhara. This awe-inspiring museum boasts a large collection of artefacts and original mountaineering gear along with stories and photographs of the mountains. The establishment was initiated by the Nepal Mountaineering Association (NMA) on November 1, 1973, and the museum was officially opened on February 5, 2004. Originally, this museum was built to maintain records and document the history, evolution, development, and legendary achievements in mountaineering.  Here, one can also get a closer look at the lives of the explorers who climbed some of the highest mountain peaks in the world. This museum is one of the major tourist attractions in Pokhara and witnesses a huge visitor influx throughout the year.</p>
+            <button onclick="toggle4()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont4" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3516.5924874749353!2d83.97720997525609!3d28.189306304070307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3995959864e52777%3A0x56cbd67d9fd71ca7!2sInternational%20Mountain%20Museum!5e0!3m2!1snl!2snl!4v1706439310926!5m2!1snl!2snl" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle4() {
+    var div= document.getElementById('cont4')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/sarangkot.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Sarangkot</h3>
+            <p align="justify">Sarangkot is a small village that lies on the outskirts of Pokhara. It is known for offering breathtakingly beautiful views of the Annapurna, Dhaulagiri and Manaslu mountain ranges and the Pokhara Valley. Located at an elevation of 1600 meters above sea level, this place is the take-off site for paragliding. Other than this, Sarangkot is also famous for being home to one of the world's fastest zip lines. All in all, if you are looking for some adventure in Nepal, this is one place you should definitely visit on your trip.
+            </p>
+            <button onclick="toggle5()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont5" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3514.7791948180734!2d83.94636687525792!3d28.24438085160155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399594b982657239%3A0x54667e1941eb00db!2sSarankot%2C%20Pokhara%2033700%2C%20Nepal!5e0!3m2!1snl!2snl!4v1706439413771!5m2!1snl!2snl" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle5() {
+    var div= document.getElementById('cont5')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/shgaden.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Shree Gaden Dhargay Ling Monastery</h3>
+            <p align="justify">This is a Tibetan Buddhist monastery which was established with the aim of making people aware of the Buddhist and Tibetan culture. This is one of the most frequented tourist places in Pokhara, Nepal. With a serene and peaceful environment, this monastery gives visitors a chance to find inner peace while spending some time away from the hustle and bustle of urban life.</p>
+              <button onclick="toggle6()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont6" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3516.607273595806!2d83.95464687525607!3d28.18885680409043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3995951788c3f953%3A0x4b1222f547dbdfb7!2sShree%20Gaden%20Dhargay%20Ling%20Monastery!5e0!3m2!1snl!2snl!4v1706439516418!5m2!1snl!2snl" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle6() {
+    var div= document.getElementById('cont6')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/begnas.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Begnas Taal</h3>
+            <p align="justify">Begnas Taal is a freshwater lake lying on the eastern side of the Pokhara valley. After Phewa Lake, this is the second largest in the Pokhara Valley and the third largest in Nepal. Blessed with beautiful natural surroundings, this lake is one of the most popular places to visit in Pokhara. The Khudi Khola dam, which has been built on the western stream of this lake, regulates the water levels. It is the major source of irrigation in every season except for the monsoons. The swamps around the Begnas Taal have been converted into lush green paddy fields, while some sections of the lake are used for fish farming. Overall, this lake acts as a major source of income for the local people.</p>
+             <button onclick="toggle7()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont7" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14067.886502037243!2d84.09199200192843!3d28.177778379426375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3995980202647001%3A0x88b3c3625fbda20e!2sBegnas%20Lake!5e0!3m2!1snl!2snl!4v1706439623931!5m2!1snl!2snl" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle7() {
+    var div= document.getElementById('cont7')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/bindyabashini.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Shree Bindhyabasini Temple</h3>
+            <p align="justify">This is one of the oldest temples in the city of Pokhara. This temple is dedicated to Goddess Bindhyabasini, the incarnation of Kali, and enthrals a large number of visitors. Dating back to the late 18th century, this temple is believed to have been built by King Prithvi Narayan Shah. In todayâ€™s times, this temple holds great religious significance and is counted among the most popular places to visit in Pokhara.</p>
+              <button onclick="toggle8()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont8" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3514.9952417504933!2d83.98163557525774!3d28.237824101895793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3995945d57d28ba5%3A0xdd52869218279546!2sShree%20Bindhyabasini%20Temple!5e0!3m2!1snl!2snl!4v1706439867700!5m2!1snl!2snl" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle8() {
+    var div= document.getElementById('cont8')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/gupteshwor.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Gupteshwar Mahadev</h3>
+            <p align="justify">Gupteshwar Mahadev is a cave temple located near Davis Falls. This is the place where the Seti River emerges from the ground. Dedicated to Lord Shiva, this temple was found sometime around the 16th century, and in present times, it is one of the most popular places for sightseeing in Pokhara. Here, one can see the self-emerging Shivaling in the condition it was originally found in, and the cave housing this Shivaling is approximately 3 km long.
+            </p>
+           <button onclick="toggle9()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont9" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3516.5948230056383!2d83.95517187525607!3d28.18923530407353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3995956b4e3d5343%3A0x6af54a3cbe5b89fa!2sGupteshwor%20Mahadev%20Cave!5e0!3m2!1snl!2snl!4v1706439968706!5m2!1snl!2snl" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle9() {
+    var div= document.getElementById('cont9')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/batcave.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Bat Cave</h3>
+            <p align="justify">Also known as Chamere Gufa, the Bat Cave is a solutional cave located in the Kaski District of Pokhara. As the name suggests, one can find thousands of bats clinging upside down from the ceiling and walls of the dark and moist chambers of this cave. This cave, known for being the habitat of horseshoe bats, has become one of the most popular tourist places in Pokhara, Nepal. 
+              One can explore this cave by paying an entry fee of 150 Nepalese Rupees. At the start point, a torch is given to the visitors, using which they can make their way once inside the cave. It takes approximately 10 minutes to reach the exit point.
+            </p>
+ <button onclick="toggle10()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont10" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3514.0180898613758!2d83.97335457525871!3d28.267468300565426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399593823f72f199%3A0xb8fbbded563f474f!2sChamere%20Gufa!5e0!3m2!1snl!2snl!4v1706440172305!5m2!1snl!2snl" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle10() {
+    var div= document.getElementById('cont10')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+</section>
+
+     <section class="trip" id="section2">
+ <div class="section__container trip__container">
+  <h2 class="section__title">Guides</h2>
+        <center><p class="section__subtitle">
+          List of Fully experienced Guides to help you explore Pokhara
+        </p></center>
+    <section class="lmnop" id="lmnop">
+      <div class="swiper mySwiper container">
+        <div class="swiper-wrapper content">
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide1.jpg" alt="" />
+              </div>
+
+              <div class="media-icons">
+             <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Shreyas Manandhar</span>
+             <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+               <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide2.jpeg" alt="" />
+              </div>
+
+              <div class="media-icons">
+       <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Ramesh Thakuri</span>
+          <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+                <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide3.avif" alt="" />
+              </div>
+
+              <div class="media-icons">
+                  <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Hari Paudel</span>
+                <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+                 <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide4.jpg" alt="" />
+              </div>
+
+              <div class="media-icons">
+       <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Ramesh Thakuri</span>
+          <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+                <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide5.jpeg" alt="" />
+              </div>
+
+              <div class="media-icons">
+                   <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Janak Mahato</span>
+                <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+                <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide6.jpg" alt="" />
+              </div>
+
+              <div class="media-icons">
+             <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Indra Sahi</span>
+                  <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+            <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide7.jpg" alt="" />
+              </div>
+
+              <div class="media-icons">
+               <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Anjit Khadka</span>
+                <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+ <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide8.jpg" alt="" />
+              </div>
+
+              <div class="media-icons">
+       <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Abiral Shrestha</span>
+      <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+             <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide9.jpeg" alt="" />
+              </div>
+
+              <div class="media-icons">
+                <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Subham Subedi</span>
+                <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+                <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+      </div>
+    </section>
+  </div>
+ </section>
+  <section class="trip"  id="section3">
+ <div class="section__container trip__container">
+  <h2 class="section__title">Accomodations</h2>
+        <center><p class="section__subtitle">
+          List of the best exclusive Hotels for Accomodation in Pokhara
+        </p></center>
+         <div class="trip__grid">
+          <div class="trip__card">
+            <img src="assets/fishlodge.avif" alt="trip" />
+            <div class="trip__details">
+              <p><b>Fish Tail Lodge by Annapurna</b><Br>Lakeside Rd, Pokhara </p>
+              <div class="rating"><i class="ri-star-fill"></i> 4.2</div>
+              <div class="booking__price">
+                <div class="price"><span>Price</span> varies</div>
+                 <a href="https://www.fishtail-lodge.com" onclick><button class="book__now">Show</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="trip__card">
+            <img src="assets/pavillionhim.jpg" alt="trip" />
+            <div class="trip__details">
+              <p><b>The Pavilions Himalayas Lake View</b><br>Rate Mate 22, Pokhara 33700</p>
+              <div class="rating"><i class="ri-star-fill"></i> 4.5</div>
+              <div class="booking__price">
+                 <div class="price"><span>Price</span> varies </div>
+                <a href="https://www.pavilionshotels.com/himalayas/?gclid=CjwKCAiAk9itBhASEiwA1my_60FZA18TGYfqbRSw9vQtdT1PdSqs_LooGMAinwYp03gzltH0yJ2zXhoCPOsQAvD_BwE"><button class="book__now">Show</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="trip__card">
+            <img src="assets/ranibanretreat.jpg" alt="trip" />
+            <div class="trip__details">
+              <p><b>Raniban Retreat</b><br> World Peace Pagoda Access 2nd Rd, Pokhara 33700</p>
+              <div class="rating"><i class="ri-star-fill"></i> 4.7</div>
+              <div class="booking__price">
+                 <div class="price"><span>Price</span> varies </div>
+                 <a href="https://raniban.com"><button class="book__now">Show</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+         <div class="trip__grid">
+          <div class="trip__card">
+            <img src="assets/hotgrande.jpg" alt="trip" />
+            <div class="trip__details">
+              <p><b>Hotel Pokhara Grande</b><br>Siddhartha Rajmarg, Pokhara 33700</p>
+              <div class="rating"><i class="ri-star-fill"></i> 4.2</div>
+              <div class="booking__price">
+                <div class="price"><span>Price</span> varies</div>
+                 <a href="https://pokharagrande.com"><button class="book__now">Show</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="trip__card">
+            <img src="assets/jalmahal.jpg" alt="trip" />
+            <div class="trip__details">
+              <p><b>Hotel Jal Mahal, Pokhara</b> <br> Pardi Bazaar, Pokhara 33700</p>
+              <div class="rating"><i class="ri-star-fill"></i> 4.5</div>
+              <div class="booking__price">
+                 <div class="price"><span>Price</span> varies</div>
+                <a href="https://www.jalmahalpokhara.com"><button class="book__now">Show</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="trip__card">
+            <img src="assets/ldmarkpokh.jpg" alt="trip" />
+            <div class="trip__details">
+              <p><b>Landmark Pokhara</b> <br>Lakeside, Pokhara 33700</p>
+              <div class="rating"><i class="ri-star-fill"></i> 4.7</div>
+              <div class="booking__price">
+                 <div class="price"><span>Price</span> varies </div>
+                 <a href="https://landmarknepal.com/hotels/Landmark-Pokhara"><button class="book__now">Show</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+ </section>
+
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <section class="gallary">
+      <div class="section__container gallary__container">
+        <div class="image__gallary">
+          <div class="gallary__col">
+            <img src="assets/101.jpg" alt="gallary" />
+          </div>
+          <div class="gallary__col">
+            <img src="assets/103.jpg" alt="gallary" />
+            <img src="assets/102.jpg" alt="gallary" />
+          </div>
+        </div>
+        <div class="gallary__content">
+          <div>
+            <h2 class="section__title">
+              Our trip gallary that will inspire you
+            </h2>
+            <p class="section__subtitle">
+              Explore moments captured from various places all over Nepal. Here you
+              can find your right destination.
+            </p>
+           <a href="gallary.html"><button class="btn">View All</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br><br>
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h3>NepTour<span>.</span></h3>
+          <p>
+            Explore the Land Of Truth with us covering your backs and guiding you through the beauty of nepal.
+          </p>
+        </div>
+        <div class="footer__col">
+         <center><img src="assets/wasitkrish.jpg" style="width: 140px; height: 140px;"><br><p>@wasitkrish</p></center>
+        </div>
+        <div class="footer__col">
+          <h4>Address</h4>
+          <p>
+            <span>Address:</span> Sankhamul, Kathmandu, Nepal
+          </p>
+          <p><span>Email:</span> NepTour@krishsingh.com.np</p>
+          <p><span>Phone:</span>+977 9865365520</p>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2023 https://Krishsingh.com.np/. All rights reserved.
+      </div>
+    </footer>
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+        if (hamburger && navLinks) {
+            hamburger.addEventListener('click', function() {
+                navLinks.classList.toggle('active');
+                hamburger.classList.toggle('active');
+            });
+            const links = document.querySelectorAll('.nav__links .link a');
+            links.forEach(link => {
+                link.addEventListener('click', function() {
+                    navLinks.classList.remove('active');
+                    hamburger.classList.remove('active');
+                });
+            });
+        }
+    </script>
+</body>
+
+ </html>

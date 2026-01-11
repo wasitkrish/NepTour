@@ -1,0 +1,765 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+    <link rel="stylesheet" href="subdiv.css" />
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet"/>
+     <link rel = "icon" href =  "AI/logo.png" type = "image/x-icon"> 
+         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <title>NepTour By StepBro</title>
+    <style>
+      @keyframes changetext{
+        0%{content: "Budhanilkantha";}
+        10%{content: "Pashupatinath Temple";}
+        20%{content: "Durbar Square";}
+        30%{content: "Boudhanath Stupa";}
+        40%{content: "Swayambhunath";}
+        50%{content: "Thamel";}
+        60%{content: "Asan Tole";}
+        70%{content: "Garden Of Dreams";}
+        80%{content: "Kumari Bahal";}
+        90%{content: "Narayanhiti Palace Museum";}
+        100%{content: "Chandragiri Hills";}
+    } 
+    .home{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)), url(./assets/kathmandu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    </style>
+  </head>
+  <body>
+       <nav>
+      <div class="nav__logo">NepTour<span>.</span></div>
+      <ul class="nav__links" id="nav-links">
+        <li class="link"><a href="index.html">Home</a></li>
+        <li class="link"><a href="#section3">Accomodation</a></li>
+        <li class="link"><a href="#section2">Guides</a></li>
+        <li class="link"><a href="#section1">Destinations</a></li>
+      </ul>
+      <a href="contact.html"><button class="btn">Contact Us</button></a>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav><br><br><br>
+  <div class="home">
+        <div class="content">
+            <h5>WELCOME TO KATHMANDU</h5>
+            <h1>Visit <span class="changecontent"></span></h1>
+            <p>The National Capital and The City Of Temples</p>
+             <a href="#section1"><button class="book__now">Explore</button></a>
+        </div>
+    </div>
+    <br><br><br>
+<section class="trip" id="section1">
+   <div class="section__container trip__container">
+  <h2 class="section__title">Destinatons</h2>
+        <center><p class="section__subtitle">
+          List of must visit places and the best tourist spots within Kathmndu Valley
+        </p></center></div>
+   <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/Pashupatinath.png" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Pashupatinath Temple</h3>
+            <p align="justify">Pashupatinath is a temple located in Kathmandu Nepal.is a Hindu temple dedicated to Pashupati, a form of Shiva, and is located in Kathmandu, Nepal near the Bagmati River. This temple was classified as a World Heritage Site in 1979.
+              The exact date of the temple's construction is uncertain, but the current form of the temple was constructed in 1692 CE.
+            </p>
+
+            <button onclick="toggle()" id="about-btn" class="btn1">Locate</button>
+
+        </div>
+            </section>
+<center>
+<div id="cont" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7064.499348983611!2d85.34385411271728!3d27.70957645276833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb197eb9f9a46b%3A0x2cbcf8f4f54006c8!2sPashupatinath%2C%20Kathmandu%2044600!5e0!3m2!1sen!2snp!4v1706368130753!5m2!1sen!2snp" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle() {
+    var div= document.getElementById('cont')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/budhanilkantha.jpeg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Budhanilkantha Temple</h3>
+            <p align="justify">Budhanilkantha Temple, located in Budhanilkantha, Nepal, (translation: Old Blue Throat) is a Hindu open air temple dedicated to Lord Mahavishnu. Budhanilkantha Temple is also known as the Narayanthan Temple, and can be identified by a large reclining statue of Lord Mahavishnu.
+              Some people associate Budhanilkanth's name with Gautama Buddha since it pronunciation being closely similar but this is not a correct fact.
+            </p>
+              <button onclick="toggle2()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont2" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3530.0379011554382!2d85.35948111064585!3d27.777806322281467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1c226224709b%3A0x45a65134a18bfef1!2sBudhanilkanth%20Temple!5e0!3m2!1sen!2snp!4v1706370759177!5m2!1sen!2snp" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle2() {
+    var div= document.getElementById('cont2')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+        <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/swayambhunath.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Swayambhunath Stupa</h3>
+            <p align="justify">Swayambhunath is an ancient religious complex atop a hill in the Kathmandu Valley, west of Kathmandu city. The Tibetan name for the site means 'Sublime Trees', for the many varieties of trees found on the hill. However, Shingun may be of in Nepal Bhasa name for the complex, Swayambhu, meaning 'self-sprung'.
+              According to Swayambhu Purana, the entire valley was once filled with an enormous lake, out of which grew a lotus. The valley came to be known as Swayambhu, meaning "Self-Created." The name comes from an eternal self-existent flame (svyaá¹ƒbhu) over which a sÅ«pa was later built.
+            </p>
+           <button onclick="toggle3()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont3" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.0771437964286!2d85.28781541064365!3d27.714904325059486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb188d9b82c8ad%3A0xae31bde410797bf7!2sSwoyambhu%20Mahachaitya!5e0!3m2!1sen!2snp!4v1706371058286!5m2!1sen!2snp" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle3() {
+    var div= document.getElementById('cont3')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/basantapur.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Basantapur Durbar Square</h3>
+            <p align="justify">Kathmandu Durbar Square is a historically and culturally significant site in Kathmandu, Nepal. It is one of the three Durbar Squares in the Kathmandu Valley in Nepal that are UNESCO World Heritage Sites.
+
+              Although the construction of the square began in the 3rd century, the major structures within it were added in later periods. The outer complex consists of a number of 16th-century temples built during the reign of Malla kings. These buildings are adorned with meticulously carved facades characteristic to Newar architecture. The central square is surrounded by palace complexes built during the Malla and Shah periods. The most well-known among them is the Nautalle Durbar, a nine-story palace built by Prithvi Narayan Shah to commemorate the Unification of Nepal.</p>
+            <button onclick="toggle4()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont4" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.421208437961!2d85.30488271064331!3d27.704278425528106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1857d1f77871%3A0xc5b0391005a641fd!2sKathmandu%20Durbar%20Square!5e0!3m2!1sen!2snp!4v1706371179108!5m2!1sen!2snp" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle4() {
+    var div= document.getElementById('cont4')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/bouddhanath.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Bouddhanath Stupa</h3>
+            <p align="justify">Bouddha also known as Boudhanath, Khasti Chaitya and KhÄsa Chaitya is a stupa in Kathmandu, Nepal. Located about 11 km (6.8 mi) from the center and northeastern outskirts of Kathmandu, its massive mandala makes it one of the largest spherical stupas in Nepal and the world.
+              The GopÄlarÄjavaá¹ƒÅ›ÄvalÄ« says Boudhanath was founded by the Nepalese Licchavi king Åšivadeva (c. 590â€“604 CE); though other Nepalese chronicles date it to the reign of King MÄnadeva (464â€“505 CE).The Tibetan sources claim a mound on the site was excavated in the late 15th or early 16th century and the bones of King Aá¹ƒshuvarmÄ 605â€“621 were discovered there.
+            </p>
+            <button onclick="toggle5()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont5" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.863758109304!2d85.35943591064384!3d27.72149252476872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1bda4a951f0f%3A0x3ddabb234891c3bd!2sBuddha%20Stupa!5e0!3m2!1sen!2snp!4v1706371462897!5m2!1sen!2snp" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle5() {
+    var div= document.getElementById('cont5')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/chandragiri.avif" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Chandragiri Hills</h3>
+            <p align="justify">Chandragiri Cable Car is a gondola lift transportation system located in Chandragiri Municipality, Nepal. Opened in 2016, the Chandragiri Cable Car runs from Thankot to Chandragiri hills. The 2.4km (9,095ft) line has two stations. The cable car system consists of 38 gondolas that can carry 1,000 people per hour. Bhaleshwor Mahadev temple is situated at the top of Chandragiri hills.
+
+              The 2.4 km cable car ride takes 9 minutes to reach the Chandragiri Hillsâ€™ top station. A cabin accommodates 8 passengers. A child above 3 feet of height requires a ticket.</p>
+              <button onclick="toggle6()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont6" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14134.480021126059!2d85.18678928715823!3d27.667226100000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb234610bf8957%3A0x5413033ac2682a6!2sChandragiri%20Cable%20Car%20Top%20Station!5e0!3m2!1sen!2snp!4v1706371521430!5m2!1sen!2snp" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle6() {
+    var div= document.getElementById('cont6')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/narayanhiti.webp" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Narayanhiti Durbar</h3>
+            <p align="justify">The Narayanhiti Palace Museum is a public museum in Kathmandu, Nepal located east of the Kaiser Mahal and next to Thamel. The museum was created in 2008 from the complex of the former Narayanhiti Palace following the 2006 revolution. Before the revolution, the palace was the residence and principal workplace of the monarch of the Kingdom of Nepal, and hosted occasions of state.
+
+              The existing palace complex was built by King Mahendra in 1963, and incorporates an impressive array of courtyards, gardens and buildings.</p>
+             <button onclick="toggle7()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont7" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7064.150461242617!2d85.30880129357908!3d27.714963400000027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb191ca61437a3%3A0x13b2693c01ed2c18!2sNarayanhiti%20Palace%20Museum!5e0!3m2!1sen!2snp!4v1706371608343!5m2!1sen!2snp" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle7() {
+    var div= document.getElementById('cont7')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/god.jpeg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Garden Of Dreams</h3>
+            <p align="justify">The Garden of Dreams, also the Garden of Six Seasons, is a neo-classical garden in Kaiser Mahal Kathmandu, Nepal, built in 1920. Designed by Kishore Narshingh, it consists of 6,895 square metres of gardens with three pavilions, an amphitheater, ponds, pergolas, and urns. From the mid-1960s, upon the death of its patron, Kaiser Sumsher Rana, it lay in neglect but was recently restored with the help of the Austrian government.
+
+              In 1998, the old neo-classical garden in Keshar Mahal was to be demolished for the construction of a commercial center. However, Minister of Education Arjun Narsingha KC on the advice of Karna Shakya stopped the demolition work at once and declared it open to the public with a new name, "The Garden of Dreams".</p>
+              <button onclick="toggle8()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont8" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.102193680698!2d85.31192381064358!3d27.71413082509362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19028855e08b%3A0xf52bbdfaf2a1ae6a!2sGarden%20of%20Dreams!5e0!3m2!1sen!2snp!4v1706371672142!5m2!1sen!2snp" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle8() {
+    var div= document.getElementById('cont8')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/thamel.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Thamel Area</h3>
+            <p align="justify">Thamel is a commercial neighborhood located in Kathmandu, the capital of Nepal. Thamel has been the centre of the tourist industry in Kathmandu for over four decades, starting from the hippie days, when many artists came to Nepal and spent weeks in Thamel. It is considered the hotspot for tourism inside the Kathmandu valley.
+              Thamel is known for its narrow alleys crowded with various shops and vendors. Commonly sold goods include food, fresh vegetables/fruits, pastries, trekking gear, walking gear, music, DVDs, handicrafts, souvenirs, woolen items and clothes. Travel agencies, small grocery stores, budget hotels, restaurants, pubs and clubs also line the streets. Cars, cycle rickshaws, two-wheelers and taxis ply these narrow streets alongside hundreds of pedestrians.
+            </p>
+           <button onclick="toggle9()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont9" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7064.146918107682!2d85.307110512718!3d27.71501810228206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb18fcb77fd4bd%3A0x58099b1deffed8d4!2sThamel%2C%20Kathmandu%2044600!5e0!3m2!1sen!2snp!4v1706371759623!5m2!1sen!2snp" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle9() {
+    var div= document.getElementById('cont9')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/kumaribahal.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Kumari Bahal</h3>
+            <p align="justify">The Kumari Ghar, popularly known as the KumariBahal, is of town house design. It is the first structure to meet the visitor of Durbar Sauare as it lies at theBashantapur Durbar Square. It is above all the sacred home of the living goddess or vestal virgin and it has housed goddess- children since it was built by King Jay Prakash Malla in 1757 A.D. (1813 B.S.) 
+              The building, in the style of the Buddhist vihara (monastic abodes) of the valley, was built in 1757 by Jaya Prakash Malla. The courtyard contains a miniature stupa carrying the symbols of Saraswati, the goddess of learning. Amazingly, the bahal escaped with only minor damage during the 2015 earthquake despite the destruction all around â€“ a sign some Nepalis see as the Kumari's benign influence.
+            </p>
+ <button onclick="toggle10()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont10" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.439078774455!2d85.30389141064327!3d27.703726425552603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb18563743a4cf%3A0x13f814dd7f12d7ad!2sKumari%20Ghar!5e0!3m2!1sen!2snp!4v1706371855676!5m2!1sen!2snp" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle10() {
+    var div= document.getElementById('cont10')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+</section>
+
+     <section class="trip" id="section2">
+ <div class="section__container trip__container">
+  <h2 class="section__title">Guides</h2>
+        <center><p class="section__subtitle">
+          List of Fully experienced Guides to help you explore kathmandu
+        </p></center>
+    <section class="lmnop" id="lmnop">
+      <div class="swiper mySwiper container">
+        <div class="swiper-wrapper content">
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide1.jpg" alt="" />
+              </div>
+
+              <div class="media-icons">
+             <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Shreyas Manandhar</span>
+             <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+               <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide2.jpeg" alt="" />
+              </div>
+
+              <div class="media-icons">
+       <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Ramesh Thakuri</span>
+          <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+                <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide3.avif" alt="" />
+              </div>
+
+              <div class="media-icons">
+                  <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Hari Paudel</span>
+                <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+                 <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide4.jpg" alt="" />
+              </div>
+
+              <div class="media-icons">
+       <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Ramesh Thakuri</span>
+          <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+                <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide5.jpeg" alt="" />
+              </div>
+
+              <div class="media-icons">
+                   <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Janak Mahato</span>
+                <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+                <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide6.jpg" alt="" />
+              </div>
+
+              <div class="media-icons">
+             <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Indra Sahi</span>
+                  <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+            <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide7.jpg" alt="" />
+              </div>
+
+              <div class="media-icons">
+               <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Anjit Khadka</span>
+                <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+ <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide8.jpg" alt="" />
+              </div>
+
+              <div class="media-icons">
+       <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Abiral Shrestha</span>
+      <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+             <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="assets/guide9.jpeg" alt="" />
+              </div>
+
+              <div class="media-icons">
+                <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                 <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Subham Subedi</span>
+                <span class="profession">Tour Guide</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+                <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+      </div>
+    </section>
+  </div>
+ </section>
+  <section class="trip"  id="section3">
+ <div class="section__container trip__container">
+  <h2 class="section__title">Accomodations</h2>
+        <center><p class="section__subtitle">
+          List of the best exclusive Hotels for Accomodation in kathmandu
+        </p></center>
+         <div class="trip__grid">
+          <div class="trip__card">
+            <img src="assets/mariot.webp" alt="trip" />
+            <div class="trip__details">
+              <p><b>Kathmandu Marriott Hotel</b> Kamalpokhari, Kathmandu</p>
+              <div class="rating"><i class="ri-star-fill"></i> 4.2</div>
+              <div class="booking__price">
+                <div class="price"><span>Price</span> varies</div>
+                 <a href="https://www.marriott.com/en-us/hotels/ktmmc-kathmandu-marriott-hotel/overview/"><button class="book__now">Show</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="trip__card">
+            <img src="assets/soltee.jpg" alt="trip" />
+            <div class="trip__details">
+              <p><b>The Soaltee Hotel        </b><br> Tahachal Marg, Kathmandu</p>
+              <div class="rating"><i class="ri-star-fill"></i> 4.5</div>
+              <div class="booking__price">
+                 <div class="price"><span>Price</span> varies </div>
+                <a href="https://www.soalteehotel.com"><button class="book__now">Show</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="trip__card">
+            <img src="assets/everesthotel.jpeg" alt="trip" />
+            <div class="trip__details">
+              <p><b>The Everest Hotel</b><br>New Baneshwor, kathmandu</p>
+              <div class="rating"><i class="ri-star-fill"></i> 4.7</div>
+              <div class="booking__price">
+                 <div class="price"><span>Price</span> varies </div>
+                 <a href="https://www.theeveresthotel.com"><button class="book__now">Show</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+         <div class="trip__grid">
+          <div class="trip__card">
+            <img src="assets/dusit.jpg" alt="trip" />
+            <div class="trip__details">
+              <p><b>Dusit Princess Kathmandu</b><br> Lazimpat, kathmandu</p>
+              <div class="rating"><i class="ri-star-fill"></i> 4.2</div>
+              <div class="booking__price">
+                <div class="price"><span>Price</span> varies</div>
+                 <a href="https://www.dusit.com/dusitprincess-kathmandu/"><button class="book__now">Show</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="trip__card">
+            <img src="assets/yakandyeti.jpeg" alt="trip" />
+            <div class="trip__details">
+              <p><b>Hotel Yak & Yeti</b> <br>Durbar Marg, kathmandu</p>
+              <div class="rating"><i class="ri-star-fill"></i> 4.5</div>
+              <div class="booking__price">
+                 <div class="price"><span>Price</span> varies</div>
+                <a href="https://www.yakandyeti.com"><button class="book__now">Show</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="trip__card">
+            <img src="assets/hyaat.jpg" alt="trip" />
+            <div class="trip__details">
+              <p><b>Hyatt Regency Kathmandu</b> <br> Taragaon, Kathmandu</p>
+              <div class="rating"><i class="ri-star-fill"></i> 4.7</div>
+              <div class="booking__price">
+                 <div class="price"><span>Price</span> varies </div>
+                 <a href="https://www.hyatt.com/en-US/hotel/nepal/hyatt-regency-kathmandu/kathm"><button class="book__now">Show</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+ </section>
+
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <section class="gallary">
+      <div class="section__container gallary__container">
+        <div class="image__gallary">
+          <div class="gallary__col">
+            <img src="assets/101.jpg" alt="gallary" />
+          </div>
+          <div class="gallary__col">
+            <img src="assets/103.jpg" alt="gallary" />
+            <img src="assets/102.jpg" alt="gallary" />
+          </div>
+        </div>
+        <div class="gallary__content">
+          <div>
+            <h2 class="section__title">
+              Our trip gallary that will inspire you
+            </h2>
+            <p class="section__subtitle">
+              Explore moments captured from various places all over Nepal. Here you
+              can find your right destination.
+            </p>
+           <a href="gallary.html"><button class="btn">View All</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br><br>
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h3>NepTour<span>.</span></h3>
+          <p>
+            Explore the Land Of Truth with us covering your backs and guiding you through the beauty of nepal.
+          </p>
+        </div>
+        <div class="footer__col">
+         <center><img src="assets/wasitkrish.jpg" style="width: 140px; height: 140px;"><br><p>@wasitkrish</p></center>
+        </div>
+        <div class="footer__col">
+          <h4>Address</h4>
+          <p>
+            <span>Address:</span> Sankhamul, Kathmandu, Nepal
+          </p>
+          <p><span>Email:</span> NepTour@krishsingh.com.np</p>
+          <p><span>Phone:</span>+977 9865365520</p>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2023 https://Krishsingh.com.np/. All rights reserved.
+      </div>
+    </footer>
+    <script>
+        // Mobile menu toggle
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+        
+        if (hamburger && navLinks) {
+            hamburger.addEventListener('click', function() {
+                navLinks.classList.toggle('active');
+                hamburger.classList.toggle('active');
+            });
+
+            // Close menu when clicking on a link
+            const links = document.querySelectorAll('.nav__links .link a');
+            links.forEach(link => {
+                link.addEventListener('click', function() {
+                    navLinks.classList.remove('active');
+                    hamburger.classList.remove('active');
+                });
+            });
+        }
+    </script>
+</body>
+
+ </html>

@@ -1,0 +1,306 @@
+﻿<!DOCTYPE html>
+<html>
+<style>
+  :root {
+  --primary-color: #3685fb;
+  --primary-color-dark: #2f73d9;
+  --secondary-color: #fafcff;
+  --text-dark: #0d213f;
+  --text-light: #767268;
+  --extra-light: #ffffff;
+  --max-width: 1200px;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.section__container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 1.5rem 1rem;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+nav {
+  padding: 1rem;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: var(--max-width);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  cursor: pointer;
+}
+
+.nav__logo span {
+  color: var(--primary-color);
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.link a {
+  padding: 0 1rem;
+  color: var(--text-dark);
+  transition: 0.3s;
+}
+
+.link a:hover {
+  color: var(--primary-color);
+}
+.btn {
+  padding: 0.75rem 2rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  color: var(--extra-light);
+  background-color: var(--primary-color);
+  border-radius: 5rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: var(--primary-color-dark);
+}
+.footer {
+  background-color: var(--text-dark);
+}
+
+.footer__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+  color: var(--secondary-color);
+}
+
+.footer__col h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.footer__col h3 span {
+  color: var(--primary-color);
+}
+
+.footer__col p {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer__col p:hover {
+  color: var(--primary-color);
+}
+
+.footer__col p span {
+  font-weight: 600;
+}
+
+.footer__col h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.footer__bar {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--secondary-color);
+  border-top: 1px solid var(--text-light);
+}
+.chatbot-toggler{
+    position: fixed;
+  bottom: 30px;
+  right: 35px;
+  outline: none;
+  border: none;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #000;
+  transition: all 0.2s ease;
+  z-index: 2;
+  
+}
+</style>
+<body>
+
+  <nav>
+ <div class="nav__logo">NepTour<span>.</span></div>
+ <ul class="nav__links" id="nav-links">
+   <li class="link"><a href="index.html">Home</a></li>
+   <li class="link"><a href="#section3">Accomodation</a></li>
+   <li class="link"><a href="#section2">Guides</a></li>
+   <li class="link"><a href="#section1">Destinations</a></li>
+ </ul>
+ <a href="contact.html"><button class="btn">Contact Us</button></a>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav><br><br><br>
+
+<!-- Header -->
+<div class="header">
+  <h1>Image Gallary</h1>
+  <p>Pictures from many locations across Nepal</p>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="assets/1.jpg" style="width:100%">
+    <img src="assets/2.jpg" style="width:100%">
+    <img src="assets/3.jpg" style="width:100%">
+    <img src="assets/4.jpg" style="width:100%">
+    <img src="assets/5.jpg" style="width:100%">
+    <img src="assets/6.jpg" style="width:100%">
+    <img src="assets/7.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="assets/thamel.jpg" style="width:100%">
+    <img src="assets/102.jpg" style="width:100%">
+    <img src="assets/103.jpg" style="width:100%">
+    <img src="assets/god.jpeg" style="width:100%">
+    <img src="assets/dusit.jpg" style="width:100%">
+    <img src="assets/pashupati.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="assets/temp.png" style="width:100%">
+    <img src="assets/swayambhunath.jpg" style="width:100%">
+    <img src="assets/lumbini.jpg" style="width:100%">
+    <img src="assets/soltee.jpg" style="width:100%">
+    <img src="assets/everesthotel.jpeg" style="width:100%">
+    <img src="assets/kumaribahal.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="assets/nagarkot.jpg" style="width:100%">
+    <img src="assets/namaste.PNG" style="width:100%">
+    <img src="assets/narayanhiti.webp" style="width:100%">
+    <img src="assets/janakpur.jpg" style="width:100%">
+    <img src="assets/yakandyeti.jpeg" style="width:100%">
+    <img src="assets/basantapur.jpg" style="width:100%">
+       <img src="assets/kathmandu.png" style="width:100%">
+  </div>
+</div>
+<br><BR><BR>
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h3>NepTour<span>.</span></h3>
+          <p>
+            Explore the Land Of Truth with us covering your backs and guiding you through the beauty of nepal.
+          </p>
+        </div>
+        <div class="footer__col">
+         <center><img src="assets/wasitkrish.jpg" style="width: 140px; height: 140px;"><br><p>@wasitkrish</p></center>
+        </div>
+        <div class="footer__col">
+          <h4>Address</h4>
+          <p>
+            <span>Address:</span> Sankhamul, Kathmandu, Nepal
+          </p>
+          <p><span>Email:</span> NepTour@krishsingh.com.np</p>
+          <p><span>Phone:</span>+977 9865365520</p>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2023 https://Krishsingh.com.np/. All rights reserved.
+      </div>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+        if (hamburger && navLinks) {
+            hamburger.addEventListener('click', function() {
+                navLinks.classList.toggle('active');
+                hamburger.classList.toggle('active');
+            });
+            const links = document.querySelectorAll('.nav__links .link a');
+            links.forEach(link => {
+                link.addEventListener('click', function() {
+                    navLinks.classList.remove('active');
+                    hamburger.classList.remove('active');
+                });
+            });
+        }
+    </script>
+</body>
+</html>
+

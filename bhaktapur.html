@@ -1,0 +1,751 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+    <link rel="stylesheet" href="subdiv.css" />
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet"/>
+     <link rel = "icon" href =  "AI/logo.png" type = "image/x-icon"> 
+         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <title>NepTour By StepBro</title>
+    <style>
+      @keyframes changetext{
+        0%{content: "Bhaktapur";}
+        10%{content: "Taumadhi Square";}
+        20%{content: "Durbar Square";}
+        30%{content: " Dattatraya and pottery Square";}
+        40%{content: " Pilot Baba Ashram";}
+        50%{content: "Thimi";}
+        60%{content: " Changu Narayan Temple";}
+        70%{content: "Kailashnath temple";}
+        80%{content: " Ranikot";}
+        90%{content: "Siddha Pokhari";}
+        100%{content: "Ghyampe Danda";}
+    } 
+    .home{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)), url(./assets/bhaktapur.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    </style>
+  </head>
+  <body>
+       <nav>
+      <div class="nav__logo">NepTour<span>.</span></div>
+      <ul class="nav__links" id="nav-links">
+        <li class="link"><a href="index.html">Home</a></li>
+        <li class="link"><a href="#section3">Accomodation</a></li>
+        <li class="link"><a href="#section2">Guides</a></li>
+        <li class="link"><a href="#section1">Destinations</a></li>
+      </ul>
+      <a href="contact.html"><button class="btn">Contact Us</button></a>
+          <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav><br><br><br>
+  <div class="home">
+        <div class="content">
+            <h5>WELCOME TO BHAKTAPUR</h5>
+            <h1>Visit <span class="changecontent"></span></h1>
+            <p>The city of culture and devotees</p>
+             <a href="#section1"><button class="book__now">Explore</button></a>
+        </div>
+    </div>
+    <br><br><br>
+<section class="trip" id="section1">
+   <div class="section__container trip__container">
+  <h2 class="section__title">Destinatons</h2>
+        <center><p class="section__subtitle">
+          List of must visit places and the best tourist spots within Bhaktapur
+        </p></center></div>
+   <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/taumadhi.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Taumadhi Square</h3>
+            <p align="justify">Taumadhi Square is one of the busiest squares of Bhaktapur which lies on the eastern elevation of Bhaktapur durbar square. A narrow street (on the south of Bhaktapur Durbar Square) filled with souvenir shops ultimately leads you toward the Taumadhi square.
+             Taumadhi Square, which houses the tallest pagoda styled temple of Nepal (Nyatapola Temple), also houses several temples, Sattal, water conduits, Maths (the Agam Chhen) and Dabus/Dabalis (platforms). However, most people know this place only for Nyatapola Temple.
+            </p>
+
+            <button onclick="toggle()" id="about-btn" class="btn1">Locate</button>
+
+        </div>
+            </section>
+<center>
+<div id="cont" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.5003992292263!2d85.42666042453433!3d27.67092492709862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1aaf07ea281b%3A0x481849d52af8337a!2sTaumadhi%20Square%2C%20Bhaktapur%2044800!5e0!3m2!1sen!2snp!4v1706439477246!5m2!1sen!2snp"  style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle() {
+    var div= document.getElementById('cont')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/bhaktapur.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Durbar Square</h3>
+            <p align="justify">One of Nepalâ€™s most stunning and regal locations is the Bhaktapur Durbar Square, one of the sites recognised by UNESCO as a World Heritage Site. Locals call this area Khwopa (the ancient city of Newa). This siteâ€™s stunning and charming architecture is Newari-built. If you go to Bhaktapur, make sure to take lots of photos in Durbar Square.
+             Its beauty endured two deadly earthquakes, one in 1934 and one in 2015. In this neighbourhood, the 17th century saw the construction of the majority of the buildings. The Royal Family of Bhaktapur owned the entire compound. The Bhaktapur Durbar Square will provide you with an insight into Nepalâ€™s former regal era.
+            </p>
+              <button onclick="toggle2()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont2" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.4630737619345!2d85.42552737453437!3d27.672079127047798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1aafec32df31%3A0xdda339e731af9bfd!2sBhaktapur%20Durbar%20Square!5e0!3m2!1sen!2snp!4v1706439693508!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle2() {
+    var div= document.getElementById('cont2')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+        <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/dattapoetry.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3> Dattatraya and pottery Square</h3>
+            <p align="justify">Dattatraya Square is the oldest square among the four charming squares of Bhaktapur.
+              For the reason that it is situated quite far from the Bhaktapur Durbar Square, most people prefer to visit this place at least.
+               However, being the ultimate square to be visited too, it again gives a bunch of surprises to its visitors. This square is named after the Dattatraya temple, where Dattatraya, a part of the trinity is worshipped. 
+               As the other squares of Bhaktapur, this sort of place is also filled with minor and major temples. If you walk north from this temple, youâ€™ll see a Salan Ganesh temple and behind it a giant manmade pond dedicated to Lord Ganesh. The pond is called Ganesh pokhari. </p>
+           <button onclick="toggle3()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont3" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113048.15338886504!2d85.2518477581252!3d27.693972590127334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1aad7a6c0001%3A0xc28ecfd4c98a91f4!2zRGF0dGF0cmF5YSBUZW1wbGUg4KSm4KSk4KWN4KSk4KS-4KSk4KWN4KSw4KSvIOCkruCkqOCljeCkpuCkv-CksA!5e0!3m2!1sen!2snp!4v1706440112315!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle3() {
+    var div= document.getElementById('cont3')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/pilotbaba.webp" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Pilot Baba Ashram</h3>
+            <p align="justify">The Pilot Baba Ashram lies in the southern hill station of Bhaktapur, which lies in the southern hill station of Bhaktapur Nagar. The hill station before the erection of Pilot Baba Ashram was merely known as the Ghyampe Danda.
+              Well, you can find a portion of Ghyampe Danda on Google Maps, if you specifically search for it. The ashram also has a Shiva temple, named Somnath temple. From its right corner, you can catch the perfect sunset that goes under the nearby hill station of Kathmandu valley.  However, the destination also gives you a slightly complete view of the only International Airport of Nepal, Tribhuvan International Airport, landing and taking off of the flights.</p>
+            <button onclick="toggle4()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont4" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3534.494980015668!2d85.4177935446461!3d27.6401535673474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1017af41f153%3A0xa2f002c97871ccb9!2sPilot%20Baba%20Ashram!5e0!3m2!1sen!2snp!4v1706465446704!5m2!1sen!2snp" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle4() {
+    var div= document.getElementById('cont4')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/ghyampedada.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Ghyampe Danda</h3>
+            <p align="justify">A perfect place for camping. Right above the Pilot Baba Ashram and below Ranikot Danda, there lies the Ghyampe Danda. Besides camping, you can go ziplining over there or simply hike. With the view of beautiful Himalayan ranges, Ghyampe Danda also offers a ravishing sunset view
+            </p>
+            <button onclick="toggle5()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont5" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3534.460176078243!2d85.41657719678958!3d27.641230899999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1015dc9ea7c9%3A0xc43c25b4afbe8911!2sGhyampe%20Danda!5e0!3m2!1sen!2snp!4v1706465596222!5m2!1sen!2snp" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle5() {
+    var div= document.getElementById('cont5')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/thimipic.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Thimi</h3>
+            <p align="justify">Thimi is an ancient cultural city of Bhaktapur as well as Nepal. You gotta believe that this city perfectly lies in between the three majestically beautiful cities of Nepal, i.e, Bhaktapur, Kathmandu, and Lalitpur. This dense burgh is full of Newa culture, tradition, pottery, vegetation, and festivals. In various ways, the city counts as the Bhaktapur Nagar, the UNESCO World Heritage site. Since it is also rich in festivities, jatras, culture, art, and architecture. The city is more famous for the Mahakali Dance, Bhairav Dance, Nil barahi dance, Sindur Jatra, and tongue-piercing jatra. Besides, it is a beautiful city, which makes it worthwhile to visit once in your lifetime. Donâ€™t miss this place if you are planning to explore Bhaktapur.</p>
+              <button onclick="toggle6()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont6" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28264.30891975872!2d85.35828004503453!3d27.68520137273609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1a419f80aa67%3A0x288ab8841508315f!2sMadhyapur%20Thimi!5e0!3m2!1sen!2snp!4v1706465680617!5m2!1sen!2snp" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle6() {
+    var div= document.getElementById('cont6')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/changunar.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Changu Narayan Temple</h3>
+            <p align="justify">Changu Narayan Temple is the oldest temple in Nepal, yet is extremely beautiful. The wood carvings of the struts, old statues, and miniature temples, all depict the ancient city of the whole nation. Besides, the temple-like most of the other temples in Nepal lies on the top of the hill. Therefore, this place with religious importance also has a natural feast. The northern alley of the changu is all filled with pristine views of the Himalayas. Thatâ€™s why, the destination also desists as one of the best hiking trails of Bhaktapur, the Nagarkot-changu hiking trail, and one of the best places to explore newa and the Gurung cuisine. A single bus from Bagbazaar could drop you at Changu but itâ€™s quite time-consuming.</p>
+             <button onclick="toggle7()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont7" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56519.71972311003!2d85.39542324079153!3d27.7023856720411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1b2c1cbcb295%3A0x67ba8bca0c5ec26f!2sChangunarayan!5e0!3m2!1sen!2snp!4v1706465751513!5m2!1sen!2snp" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle7() {
+    var div= document.getElementById('cont7')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/sanga.webp" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Kailashnath temple</h3>
+            <p align="justify">The tallest statue of Lord Shiva in the entire world is the statue of Kailash Nath Mahadev which lies within the border of the Bhaktapur. Both the view of such a tall stature and the view that you would have, especially on the sunset simply would blow your mind along with your hairs by the crisp air. Itâ€™s an amazing place. Half an hour of bus ride from Jagati bus park would drop you on the Sanga, from where the quick walk is required. Well, if you are in Bhaktapur Durbar Square then, you must ride a bus, at first, to reach Jagati itself.</p>
+              <button onclick="toggle8()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont8" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3534.300724326449!2d85.47158891064129!3d27.646166128088666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb0fb8898faccb%3A0x2c4badcd4de883e!2sSanga%20Mahadevsthan!5e0!3m2!1sen!2snp!4v1706465870905!5m2!1sen!2snp" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle8() {
+    var div= document.getElementById('cont8')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/ranikotbkpur.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Ranikot</h3>
+            <p align="justify">Ranikot is one popular destination for hiking in Bhaktapur. The crispy and crooked path from Suryabinayak via Pilot Baba Ashram to Ranikot offers beautiful and dramatic views of nearby villages and the Kathmandu Valley. Being situated in the southern hill station of Bhaktapur, it also offers majestic views of the Himalayas ranges in the north. Well, Ranikot resort over there waits for you to wake up with the shining ray of the sun, early in the morning. Those sun patches overlapping the jungles of Ranikot and the smell of freshness made your entire day warm as well as fresh.
+            </p>
+           <button onclick="toggle9()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont9" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3534.870267710039!2d85.42595601064068!3d27.628534328864728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb10256cdcc6ed%3A0x652ed206f6bc86f0!2sRanikot%20Rd!5e0!3m2!1sen!2snp!4v1706465914031!5m2!1sen!2snp" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle9() {
+    var div= document.getElementById('cont9')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/siddhapokhari.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>Siddha Pokhari</h3>
+            <p align="justify">Siddha Pokhari is one of the oldest and the largest ponds of Bhaktapur. Locally interpreted as Ta; Pukhu means the big pond, some study says it is a  natural pool while some say it is a manmade pond. But, it still has a great name in Bhaktapur. People of almost all ages go there. Besides, it has religious importance too. During the Indra jatra, a jatra associated with Indrayani is done over there where the diyos are lit up all around the pond. The night view of that pond, simultaneously on that day looks immensely beautiful like a night of Tihar. All lighted up and bright.
+            </p>
+ <button onclick="toggle10()" id="about-btn" class="btn1">Locate</button>
+        </div>
+    </section>
+    <center>
+<div id="cont10" style="  background: transparent;height: 100vh;width: 100%;display: none;align-items: center;justify-content: center;flex-direction: column;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.4665858222606!2d85.41785571064214!3d27.671970526952236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1aa31702455b%3A0xb8e81bbe523146c6!2sSiddha%20Pokhari!5e0!3m2!1sen!2snp!4v1706465963630!5m2!1sen!2snp" style="border:0; width: 80%; height: 500px; filter: invert(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></center>
+<script type="text/javascript">
+  function toggle10() {
+    var div= document.getElementById('cont10')
+    if (div.style.display=="none") {}
+    div.style.display="block";
+  }
+</script> 
+</section>
+
+<section class="trip" id="section2">
+  <div class="section__container trip__container">
+   <h2 class="section__title">Guides</h2>
+         <center><p class="section__subtitle">
+           List of Fully experienced Guides to help you explore Bhaktapur
+         </p></center>
+     <section class="lmnop" id="lmnop">
+       <div class="swiper mySwiper container">
+         <div class="swiper-wrapper content">
+           <div class="swiper-slide card">
+             <div class="card-content">
+               <div class="image">
+                 <img src="assets/guide1.jpg" alt="" />
+               </div>
+ 
+               <div class="media-icons">
+              <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                 <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                  <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+               </div>
+ 
+               <div class="name-profession">
+                 <span class="name">Shreyas Manandhar</span>
+              <span class="profession">Tour Guide</span>
+               </div>
+ 
+               <div class="rating">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+               </div>
+ 
+               <div class="button">
+                <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                 <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+               </div>
+             </div>
+           </div>
+           <div class="swiper-slide card">
+             <div class="card-content">
+               <div class="image">
+                 <img src="assets/guide2.jpeg" alt="" />
+               </div>
+ 
+               <div class="media-icons">
+        <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                 <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                  <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></i></a>
+               </div>
+ 
+               <div class="name-profession">
+                 <span class="name">Ramesh Thakuri</span>
+           <span class="profession">Tour Guide</span>
+               </div>
+ 
+               <div class="rating">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+               </div>
+ 
+               <div class="button">
+                 <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                 <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+               </div>
+             </div>
+           </div>
+           <div class="swiper-slide card">
+             <div class="card-content">
+               <div class="image">
+                 <img src="assets/guide3.avif" alt="" />
+               </div>
+ 
+               <div class="media-icons">
+                   <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                 <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                  <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></i></a>
+               </div>
+ 
+               <div class="name-profession">
+                 <span class="name">Hari Paudel</span>
+                 <span class="profession">Tour Guide</span>
+               </div>
+ 
+               <div class="rating">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+               </div>
+ 
+               <div class="button">
+                  <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                 <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+               </div>
+             </div>
+           </div>
+           <div class="swiper-slide card">
+             <div class="card-content">
+               <div class="image">
+                 <img src="assets/guide4.jpg" alt="" />
+               </div>
+ 
+               <div class="media-icons">
+        <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                 <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                  <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></i></a>
+               </div>
+ 
+               <div class="name-profession">
+                 <span class="name">Ramesh Thakuri</span>
+           <span class="profession">Tour Guide</span>
+               </div>
+ 
+               <div class="rating">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+               </div>
+ 
+               <div class="button">
+                 <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                 <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+               </div>
+             </div>
+           </div>
+           <div class="swiper-slide card">
+             <div class="card-content">
+               <div class="image">
+                 <img src="assets/guide5.jpeg" alt="" />
+               </div>
+ 
+               <div class="media-icons">
+                    <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                 <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                  <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+               </div>
+ 
+               <div class="name-profession">
+                 <span class="name">Janak Mahato</span>
+                 <span class="profession">Tour Guide</span>
+               </div>
+ 
+               <div class="rating">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+               </div>
+ 
+               <div class="button">
+                 <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                 <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+               </div>
+             </div>
+           </div>
+           <div class="swiper-slide card">
+             <div class="card-content">
+               <div class="image">
+                 <img src="assets/guide6.jpg" alt="" />
+               </div>
+ 
+               <div class="media-icons">
+              <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                 <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                  <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+               </div>
+ 
+               <div class="name-profession">
+                 <span class="name">Indra Sahi</span>
+                   <span class="profession">Tour Guide</span>
+               </div>
+ 
+               <div class="rating">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+               </div>
+ 
+               <div class="button">
+             <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                 <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+               </div>
+             </div>
+           </div>
+           <div class="swiper-slide card">
+             <div class="card-content">
+               <div class="image">
+                 <img src="assets/guide7.jpg" alt="" />
+               </div>
+ 
+               <div class="media-icons">
+                <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                 <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                  <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+               </div>
+ 
+               <div class="name-profession">
+                 <span class="name">Anjit Khadka</span>
+                 <span class="profession">Tour Guide</span>
+               </div>
+ 
+               <div class="rating">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+               </div>
+ 
+               <div class="button">
+  <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                 <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+               </div>
+             </div>
+           </div>
+           <div class="swiper-slide card">
+             <div class="card-content">
+               <div class="image">
+                 <img src="assets/guide8.jpg" alt="" />
+               </div>
+ 
+               <div class="media-icons">
+        <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                 <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                  <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+               </div>
+ 
+               <div class="name-profession">
+                 <span class="name">Abiral Shrestha</span>
+       <span class="profession">Tour Guide</span>
+               </div>
+ 
+               <div class="rating">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+               </div>
+ 
+               <div class="button">
+              <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                 <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+               </div>
+             </div>
+           </div>
+           <div class="swiper-slide card">
+             <div class="card-content">
+               <div class="image">
+                 <img src="assets/guide9.jpeg" alt="" />
+               </div>
+ 
+               <div class="media-icons">
+                 <a href="https://www.facebook.com/profile.php?id=61555611842513"><i class="fab fa-facebook"></i></a>
+                 <a href="https://www.instagram.com/stepbroinitiative/"><i class="fab fa-instagram"></i></a>
+                  <a href="tel:9865365520"><i class="fa-solid fa-phone"></i></a>
+               </div>
+ 
+               <div class="name-profession">
+                 <span class="name">Subham Subedi</span>
+                 <span class="profession">Tour Guide</span>
+               </div>
+ 
+               <div class="rating">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="far fa-star"></i>
+                 <i class="far fa-star"></i>
+               </div>
+ 
+               <div class="button">
+                 <a href="mailto:contact@krishsingh.com.np"><button class="aboutMe">Mail Me</button></a>
+                 <a href="payment.html"><button class="hireMe">Hire Me</button></a>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+ 
+       <div class="swiper-button-next"></div>
+       <div class="swiper-button-prev"></div>
+       <div class="swiper-pagination"></div>
+       </div>
+     </section>
+   </div>
+  </section>
+   <section class="trip"  id="section3">
+  <div class="section__container trip__container">
+   <h2 class="section__title">Accomodations</h2>
+         <center><p class="section__subtitle">
+           List of the best exclusive Hotels for Accomodation in Bhaktapur
+         </p></center>
+          <div class="trip__grid">
+           <div class="trip__card">
+             <img src="assets/htlbhadgaun.jpg" alt="trip" />
+             <div class="trip__details">
+               <p><b>Hotel Bhadgaon</b><br>Barahisthan, Bhaktapur 44800</p>
+               <div class="rating"><i class="ri-star-fill"></i> 4.2</div>
+               <div class="booking__price">
+                 <div class="price"><span>Price</span> varies</div>
+                  <a href="https://www.hotelbhadgaon.com"><button class="book__now">Show</button></a>
+               </div>
+             </div>
+           </div>
+           <div class="trip__card">
+             <img src="assets/htlmandev.jpg" alt="trip" />
+             <div class="trip__details">
+               <p><b>Planet Bhaktapur Hotel </b><br>Mandev Marg, Bhaktapur 44800</p>
+               <div class="rating"><i class="ri-star-fill"></i> 4.5</div>
+               <div class="booking__price">
+                  <div class="price"><span>Price</span> varies </div>
+                 <a href="https://www.facebook.com/Nepalplanet"><button class="book__now">Show</button></a>
+               </div>
+             </div>
+           </div>
+           <div class="trip__card">
+             <img src="assets/htlthagchu.jpg" alt="trip" />
+             <div class="trip__details">
+               <p><b>THAGU CHHEN</b><br> Itachhen-15, Bhaktapur 44800</p>
+               <div class="rating"><i class="ri-star-fill"></i> 4.7</div>
+               <div class="booking__price">
+                  <div class="price"><span>Price</span> varies </div>
+                  <a href="http://www.thaguchhen.com/"><button class="book__now">Show</button></a>
+               </div>
+             </div>
+           </div>
+         </div>
+          <div class="trip__grid">
+           <div class="trip__card">
+             <img src="assets/htltradroof.jpg" alt="trip" />
+             <div class="trip__details">
+               <p><b>Hotel Traditional and Rooftop cafe</b><br>Durbar Square, Bhaktapur 44800</p>
+               <div class="rating"><i class="ri-star-fill"></i> 4.2</div>
+               <div class="booking__price">
+                 <div class="price"><span>Price</span> varies</div>
+                  <a href="http://www.hoteltraditional.com/"><button class="book__now">Show</button></a>
+               </div>
+             </div>
+           </div>
+           <div class="trip__card">
+             <img src="assets/htlsiddhihome.jpg" alt="trip" />
+             <div class="trip__details">
+               <p><b>Siddhi Home Hotel Bhaktapur</b> <br>Taumadhi Square, 05 44800</p>
+               <div class="rating"><i class="ri-star-fill"></i> 4.5</div>
+               <div class="booking__price">
+                  <div class="price"><span>Price</span> varies</div>
+                 <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiYppur3YCEAxViS2cHHSobD5wQFnoECBcQAQ&url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fnp%2Fsiddhi-home-amp-restaurant.html&usg=AOvVaw2B9emXR9bic9Xh2FV1sf7G&opi=89978449"><button class="book__now">Show</button></a>
+               </div>
+             </div>
+           </div>
+           <div class="trip__card">
+             <img src="assets/htlrupakot.jpeg" alt="trip" />
+             <div class="trip__details">
+               <p><b>Hotel Rupakot & Roof Top Restaurent</b> <br> à¤¬à¥‹à¤²à¤¾à¤›à¥‡à¤‚ à¤¸à¤¡à¤•, Bhaktapur 44800</p>
+               <div class="rating"><i class="ri-star-fill"></i> 4.7</div>
+               <div class="booking__price">
+                  <div class="price"><span>Price</span> varies </div>
+                  <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi6-a3-3YCEAxUGSWwGHfGDBS0QFnoECBAQAQ&url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fnp%2Frupakot-and-rooftop-restaurant.html&usg=AOvVaw1bp-uixAl_mTKsYAgPKL3b&opi=89978449"><button class="book__now">Show</button></a>
+               </div>
+             </div>
+           </div>
+         </div>
+  </section>
+ 
+ 
+     <!-- Swiper JS -->
+     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+ 
+     <!-- Initialize Swiper -->
+     <script>
+       var swiper = new Swiper(".mySwiper", {
+         slidesPerView: 3,
+         spaceBetween: 30,
+         slidesPerGroup: 3,
+         loop: true,
+         loopFillGroupWithBlank: true,
+         pagination: {
+           el: ".swiper-pagination",
+           clickable: true,
+         },
+         navigation: {
+           nextEl: ".swiper-button-next",
+           prevEl: ".swiper-button-prev",
+         },
+       });
+     </script>
+     <section class="gallary">
+       <div class="section__container gallary__container">
+         <div class="image__gallary">
+           <div class="gallary__col">
+             <img src="assets/101.jpg" alt="gallary" />
+           </div>
+           <div class="gallary__col">
+             <img src="assets/103.jpg" alt="gallary" />
+             <img src="assets/102.jpg" alt="gallary" />
+           </div>
+         </div>
+         <div class="gallary__content">
+           <div>
+             <h2 class="section__title">
+               Our trip gallary that will inspire you
+             </h2>
+             <p class="section__subtitle">
+               Explore moments captured from various places all over Nepal. Here you
+               can find your right destination.
+             </p>
+            <a href="gallary.html"><button class="btn">View All</button></a>
+           </div>
+         </div>
+       </div>
+     </section>
+     <br><br><br>
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h3>NepTour<span>.</span></h3>
+          <p>
+            Explore the Land Of Truth with us covering your backs and guiding you through the beauty of nepal.
+          </p>
+        </div>
+        <div class="footer__col">
+         <center><img src="assets/wasitkrish.jpg" style="width: 140px; height: 140px;"><br><p>@wasitkrish</p></center>
+        </div>
+        <div class="footer__col">
+          <h4>Address</h4>
+          <p>
+            <span>Address:</span> Sankhamul, Kathmandu, Nepal
+          </p>
+          <p><span>Email:</span> NepTour@krishsingh.com.np</p>
+          <p><span>Phone:</span>+977 9865365520</p>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2023 https://Krishsingh.com.np/. All rights reserved.
+      </div>
+    </footer>
+     <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+        if (hamburger && navLinks) {
+            hamburger.addEventListener('click', function() {
+                navLinks.classList.toggle('active');
+                hamburger.classList.toggle('active');
+            });
+            const links = document.querySelectorAll('.nav__links .link a');
+            links.forEach(link => {
+                link.addEventListener('click', function() {
+                    navLinks.classList.remove('active');
+                    hamburger.classList.remove('active');
+                });
+            });
+        }
+    </script>
+</body>
+  </html>
