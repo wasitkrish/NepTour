@@ -1,5 +1,0 @@
-
-MySQL DB Name - ezyro_35825410_chatapp
-MySQL User Name - ezyro_35825410
-MySQL Password - krish2020
-MySQL Host Name - sql311.ezyro.com
