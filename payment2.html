@@ -18,6 +18,13 @@
   --text-dark: #0d213f;
   --text-light: #767268;
   --extra-light: #ffffff;
+  --white: #ffffff;
+  --gray-50: #f9fafb;
+  --gray-200: #e5e7eb;
+  --gray-400: #9ca3af;
+  --gray-500: #6b7280;
+  --gray-900: #111827;
+  --red-500: #ef4444;
   --max-width: 1200px;
 }
 * {
@@ -543,7 +550,7 @@ input:checked + .payment-method-item::before {
                     </div>
                 </div>
                 <div class="payment-right">
-                    <form action="" class="payment-form" onclick="function5()">
+                    <form class="payment-form" id="paymentForm">
                         <h1 class="payment-title">Payment Details</h1>
                         <div class="payment-method">
                             <input type="radio" name="payment-method" id="method-1" checked>
@@ -564,24 +571,24 @@ input:checked + .payment-method-item::before {
                             </label>
                         </div>
                         <div class="payment-form-group">
-                            <input type="email" placeholder=" " class="payment-form-control" id="email">
+                            <input type="email" placeholder=" " class="payment-form-control" id="email" required>
                             <label for="email" class="payment-form-label payment-form-label-required">Email Address</label>
                         </div>
                         <div class="payment-form-group">
-                            <input type="text" placeholder=" " class="payment-form-control" id="card-number">
+                            <input type="text" placeholder=" " class="payment-form-control" id="card-number" required>
                             <label for="card-number" class="payment-form-label payment-form-label-required">Card Number</label>
                         </div>
                         <div class="payment-form-group-flex">
                             <div class="payment-form-group">
-                                <input type="date" placeholder=" " class="payment-form-control" id="expiry-date">
+                                <input type="date" placeholder=" " class="payment-form-control" id="expiry-date" required>
                                 <label for="expiry-date" class="payment-form-label payment-form-label-required">Expiry Date</label>
                             </div>
                             <div class="payment-form-group">
-                                <input type="text" placeholder=" " class="payment-form-control" id="cvv">
+                                <input type="text" placeholder=" " class="payment-form-control" id="cvv" required>
                                 <label for="cvv" class="payment-form-label payment-form-label-required">CVV</label>
                             </div>
                         </div>
-                     <a href="checkedout.html"><button onclick="" class="payment-form-submit-button"><i class="ri-wallet-line"></i> Pay</button></a>
+                        <button type="button" onclick="function5()" class="payment-form-submit-button"><i class="ri-wallet-line"></i> Pay</button>
                     </form>
                 </div>
             </div>
@@ -590,28 +597,39 @@ input:checked + .payment-method-item::before {
 
     <script type="text/javascript">
         function function5() {
-	swal({
-	  title: "Are you sure?",
-	  text: "Once the Transaction is made it cannot be refunded",
-	  icon: "warning",
-	  buttons: true,
-	  dangerMode: true,
-	})
-	.then((willDelete) => {
-	  if (willDelete) {
-		swal("Transaction successful ! Your Transaction Id is 4897756365", {
-		  icon: "success",
-		});
-	  } else {
-		swal("Transaction");
-	  }
-      setTimeout(llop, 3000);
-function llop() {
-   document.location.href = "index.html";
-}
-	});
+            // Validate form fields
+            const email = document.getElementById('email').value;
+            const cardNumber = document.getElementById('card-number').value;
+            const expiryDate = document.getElementById('expiry-date').value;
+            const cvv = document.getElementById('cvv').value;
+
+            if (!email || !cardNumber || !expiryDate || !cvv) {
+                swal("Error", "Please fill in all required fields", "error");
+                return;
+            }
+
+            swal({
+                title: "Are you sure?",
+                text: "Once the Transaction is made it cannot be refunded",
+                icon: "warning",
+                buttons: true,
+                dangerMode: true,
+            })
+            .then((willDelete) => {
+                if (willDelete) {
+                    swal("Transaction successful! Your Transaction Id is 4897756365", {
+                        icon: "success",
+                    });
+                    setTimeout(() => {
+                        document.location.href = "checkedout.html";
+                    }, 2000);
+                } else {
+                    swal("Transaction cancelled", {
+                        icon: "info",
+                    });
+                }
+            });
         }
-    
     </script>
 
     <br><br><br><br><br><br>
