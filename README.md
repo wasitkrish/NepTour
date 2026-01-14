@@ -128,4 +128,4 @@ Copyright (c) 2026
 
 For full terms, please refer to the [official Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
----S
+---
