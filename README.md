@@ -1,3 +1,21 @@
+<!-- Banner Header -->
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff7e5f,100:feb47b&height=220&section=header&text=NepTour%20%E2%9F%97%EF%B8%8F&fontSize=36&fontColor=ffffff&animation=fadeIn" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Frontend-HTML-orange.svg?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Styling-CSS-blue.svg?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Framework-TailwindCSS-green.svg?style=for-the-badge" />
+</p>
+
+<p align="center">
+  <b>Explore Nepal’s destinations with NepTour – Simple, Responsive, Informative</b>
+</p>
+
+---
+
 # 🗺️ NepTour
 
 **NepTour** is a tourism website created to promote travel in Nepal. The site highlights popular destinations, provides useful tourist information, and offers an easy-to-navigate interface built using HTML and CSS.
@@ -86,23 +104,28 @@ NepTour was developed as a high school project to give travelers a simple, infor
 
 ## 📄 License
 
-This project is licensed under the **Apache License 2.0**.  
+This project is licensed under the **Apache License 2.0**.
 You may obtain a copy of the license at:
 
 [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
 ---
 
-### Summary
+## 📜 License
 
-- You are free to **use, modify, distribute, and sublicense** this project.  
-- You must **include the original copyright notice** and **license** in any derivative works.  
-- The project is provided **"AS IS"**, without warranties or conditions of any kind.
+This project is also under the **MIT License**.
 
-For full terms, please refer to the [official Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+Copyright (c) 2026
+**Krish Singh** ([github.com/wasitkrish](https://github.com/wasitkrish))
 
 ---
 
-## ❤️ Made With
+### Summary
 
-HTML, CSS, and JS
+* You are free to **use, modify, distribute, and sublicense** this project.
+* You must **include the original copyright notice** and **license** in any derivative works.
+* The project is provided **"AS IS"**, without warranties or conditions of any kind.
+
+For full terms, please refer to the [official Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+
+---S
