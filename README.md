@@ -1,7 +1,7 @@
 <!-- Banner Header -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff7e5f,100:feb47b&height=220&section=header&text=NepTour - Tourism Website%20%E2%9F%97%EF%B8%8F&fontSize=36&fontColor=ffffff&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff7e5f,100:feb47b&height=220&section=header&text=NepTour%20-%20Tourism%20Website&fontSize=36&fontColor=ffffff&animation=fadeIn" />
 </p>
 
 <p align="center">
