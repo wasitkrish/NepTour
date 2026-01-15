@@ -16,7 +16,7 @@
 
 ---
 
-# 🗺️ NepTour
+# 🗺️ NepTour - Tourism Website
 
 **NepTour** is a tourism website created to promote travel in Nepal. The site highlights popular destinations, provides useful tourist information, and offers an easy-to-navigate interface built using HTML and CSS.
 
